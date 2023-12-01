@@ -42,11 +42,17 @@ sup {
 .headerLinkColor a:hover {
     color: #eeecf7;
 }
-
+.color808081
+{
+    color: #808081;
+}
 .liteGrey {
     color: #3f4042;
 }
-
+.colorbcbcbd
+{
+    color: #bcbcbd;
+}
 .headerLinkUnderColor a {
     color: #3f4042;
     transition: .2s;
@@ -174,7 +180,11 @@ sup {
     background-color: white !important;
     border-radius: 50%;
 }
-
+.mhx95
+{
+    max-width: 95% !important;
+    max-height: 95% !important;
+}
 .owl-theme .owl-nav .disabled {
     opacity: 1 !important;
 }
@@ -962,7 +972,12 @@ sup {
     background-color: #19c144;
     color: white;
 }
-
+.productButonPink
+{
+    background-color: #fff;
+    color: #fa4f91;
+    border: 1px solid #fa4f91 !important;
+}
 .product {
     border-left: 1px solid #ebebeb;
 }
@@ -1564,15 +1579,61 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
     margin: 0;
-    /* Chrome, Safari, Edge için */
 }
-
+.downonarrow[type="number"]::-webkit-inner-spin-button,
+.downonarrow[type="number"]::-webkit-outer-spin-button
+{
+    -webkit-appearance:  inherit !important;
+}
+.coloraaabae
+{
+    color: #aaabae;
+}
+.downonarrow
+{
+    width: 60px;
+}
 .w35 {
     width: 35%;
 }
+.rightArrowAfter1::after
+{
+    content: "";
+    margin-top: 25px;
+    margin-left:10px;
+    width: 50px;
+    height: 75px;
+    border-top: 2px solid #ebebeb;
+    border-right: 2px solid #ebebeb;
+    background-position:right 100%;
+    background-repeat: no-repeat;
 
+}
+.rightArrowAfter2::after
+{
+    content: "";
+    display: block;
+    margin-left:100px;
+    width: 150px;
+    height: 75px;
+    border-left: 2px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+    background-position:right 100%;
+    background-repeat: no-repeat;
+
+}
+.rightArrowAfter3::after
+{
+    content: "";
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-bottom: 2px solid #ebebeb;
+    background-position:right 100%;
+    background-repeat: no-repeat;
+
+}
 .disabledInput {
     background: transparent;
     border: 1px solid #ebebeb;
@@ -1863,6 +1924,18 @@ input[type="number"]::-webkit-outer-spin-button {
 .color96979b {
     color: #96979b;
 }
+.colorfcabc6 {
+    color: #fcabc6;
+}
+.color7fd68f {
+    color: #7fd68f;
+}
+.color676970
+{
+    color: #676970;
+}
+
+
 
 .productClick {
     z-index: 2;
