@@ -212,7 +212,31 @@ $('.Carousel2_2').owlCarousel({
         }
     }
 })
+$('.CarouselDteal').owlCarousel({
+    loop: false,
+    nav: false,
+    dots: true,
+    drag:false,
+    mouseDrag:false,
+    animateOut: 'fadeOut',
+    responsive: {
+        0: {
+            items: 1
+        },
+        576: {
+            nav:false,
+            items: 1
+        },
+        768: {
 
+            items: 1
+        },
+        1200: {
+
+            items: 1
+        }
+    }
+})
 $('.Carousel2_3').owlCarousel({
     loop: false,
     nav: false,

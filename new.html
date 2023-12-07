@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- Fancybox and Jquery CDN
-    This link get github repository -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Scroll Example</title>
+  <style>
+    /* Bu stil, otomatik kaydırma işlemi sırasında görüntülenecek bir örnek içindir */
+    #scrollContainer {
+      height: 300px;
+      overflow: auto;
+    }
+  </style>
 </head>
-
 <body>
-    <section>
-        <div class="first-div">
-            <a data-fancybox="gallery" href="img/1.jpg"><img src="img/1.jpg"></a>
-            <a data-fancybox="gallery" href="img/2.jpg"><img src="img/2.jpg"></a>
-            <a data-fancybox="gallery" href="img/3.jpg"><img src="img/3.jpg"></a>
-        </div>
-        <div>
-            <a data-fancybox="gallery" href="img/4.jpg"><img src="img/4.jpg"></a>
-            <a data-fancybox="gallery" href="img/5.jpg"><img src="img/5.jpg"></a>
-            <a data-fancybox="gallery" href="img/6.jpg"><img src="img/6.jpg"></a>
-        </div>
-        <a id="viewImgTarget" href="images/productImg/product2.webp" data-fancybox="gallery"
-            class=" w-100 h-100 position-relative mhx95 d-flex justify-content-center align-items-center">
-            <img id="viewImg" src="" alt="">
-            <div class="clipPath2 rounded-end-1 p-1 ps-3 pe-2 position-absolute top-0 end-0">
-                <p class="fs10 fw-bold text-white">25% OFF</p>
-            </div>
-        </a>
-    </section>
-</body>
 
+  <div id="scrollContainer">
+    <!-- Otomatik kaydırma içeriği buraya eklenebilir -->
+    <p>Line 1</p>
+    <p>Line 2</p>
+    <p>Line 3</p>
+    <!-- ... -->
+    <p>Line N</p>
+  </div>
+
+  <script>
+    // Sayfa yüklendiğinde otomatik kaydırma başlatma
+    document.addEventListener('DOMContentLoaded', function() {
+      autoScroll();
+    });
+
+    function autoScroll() {
+      // Otomatik kaydırma işlemi
+      var scrollContainer = document.getElementById('scrollContainer');
+
+      // İstenirse yukarı kaydırma için:
+      // scrollContainer.scrollTop += 1;
+
+      // İstenirse aşağı kaydırma için:
+      // scrollContainer.scrollTop -= 1;
+
+      // Belirli bir hızda ve yönde devam etmesi için rekürsif olarak çağırma
+      setTimeout(autoScroll, 50);
+    }
+  </script>
+
+</body>
 </html>
