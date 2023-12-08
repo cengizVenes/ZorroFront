@@ -883,29 +883,25 @@
                 <div class="row bg-white pt-4 shadow-sm rounded-top-1 m-0 ">
                     <div class="col-12 col-xl-7 order-first  ">
                         <div class=" d-flex flex-wrap  bg-transparent w-100 h-75 ">
-                            <a id="viewImgTarget" class="w-50 h-50 d-flex justify-content-center cursorZoom "
+                            <a class="w-50 h-50 d-flex justify-content-center cursorZoom "
                                 href="images/productImg/product1.webp" data-fancybox="gallery"
                                 class=" position-relative mhx95 d-flex justify-content-center  align-items-center">
-                                <img id="viewImg" src="images/productImg/product1.webp" class=" h-100"
-                                    alt="product dteal picture">
+                                <img src="images/productImg/product1.webp" class=" h-100" alt="product dteal picture">
                             </a>
-                            <a id="viewImgTarget" class="w-50 h-50 d-flex justify-content-center cursorZoom "
+                            <a class="w-50 h-50 d-flex justify-content-center cursorZoom "
                                 href="images/productImg/product2.webp" data-fancybox="gallery"
                                 class=" position-relative mhx95 d-flex justify-content-center  align-items-center">
-                                <img id="viewImg" src="images/productImg/product2.webp" class=" h-100"
-                                    alt="product dteal picture">
+                                <img src="images/productImg/product2.webp" class=" h-100" alt="product dteal picture">
                             </a>
-                            <a id="viewImgTarget" class="w-50 h-50 d-flex justify-content-center cursorZoom "
+                            <a class="w-50 h-50 d-flex justify-content-center cursorZoom "
                                 href="images/productImg/product3.webp" data-fancybox="gallery"
                                 class=" position-relative mhx95 d-flex justify-content-center  align-items-center">
-                                <img id="viewImg" src="images/productImg/product3.webp" class=" h-100"
-                                    alt="product dteal picture">
+                                <img src="images/productImg/product3.webp" class=" h-100" alt="product dteal picture">
                             </a>
-                            <a id="viewImgTarget" class="w-50 h-50 d-flex justify-content-center cursorZoom "
+                            <a class="w-50 h-50 d-flex justify-content-center cursorZoom "
                                 href="images/productImg/product4.webp" data-fancybox="gallery"
                                 class=" position-relative mhx95 d-flex justify-content-center cursorZoom align-items-center">
-                                <img id="viewImg" src="images/productImg/product4.webp" class=" h-100"
-                                    alt="product dteal picture">
+                                <img src="images/productImg/product4.webp" class=" h-100" alt="product dteal picture">
                             </a>
                         </div>
                     </div>
@@ -1215,7 +1211,7 @@
                                 </table>
                             </div>
                         </div>
-                       
+
                         <div id="faqs" class="collapse2 tab-pane">
                             <h2 class="fw-light color676970 mb-4">FAQs</h2>
                             <p class="color676970 my-4">
@@ -1887,125 +1883,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/style.js"></script>
-
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const product1Stars = document.querySelectorAll("#product1 .star");
-            const product2Stars = document.querySelectorAll("#product2 .star");
-
-            product1Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product1Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product1Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 1 Değerlendirme: " + rating);
-                });
-            });
-
-            product2Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product2Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product2Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 2 Değerlendirme: " + rating);
-                });
-            });
-
-            function highlightStars(stars, rating) {
-                stars.forEach(star => {
-                    const starRating = star.getAttribute("data-rating");
-                    if (starRating <= rating) {
-                        star.classList.add("active");
-                    } else {
-                        star.classList.remove("active");
-                    }
-                });
-            }
-
-            function unhighlightStars(stars) {
-                stars.forEach(star => {
-                    star.classList.remove("active");
-                });
-            }
-        });
-    </script>
-    <script>
-        // heart
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".picture"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Katman 1.png";
-                } else {
-                    picture.src = "images/Icon HeartP.png";
-                }
-
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".sizeguide"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/L0001 copy.png";
-                } else {
-                    picture.src = "images/Şekil 1.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".copy"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Icon CompareDark.png";
-                } else {
-                    picture.src = "images/Icon Comparep.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-
-    <script>
-        Fancybox.bind('[data-fancybox="gallery"]', {});
+        sizeguide()
+        coppy()
+        heart()
+        fancybox()
     </script>
 
 </html>

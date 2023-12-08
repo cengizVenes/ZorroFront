@@ -906,7 +906,8 @@
                                     <div
                                         class="d-flex  justify-content-center align-items-center p-0 m-0 h-100 calcWidth">
                                         <img class="disNone" id="btnicon" src="images/clear.png" alt="clearicon">
-                                        <a id="btnMore" onclick="myFunction()" class="text-decoration-none color96979b fsRes ms-1" href="#">Filter</a>
+                                        <a id="btnMore" onclick="UpdatemoreLess() "
+                                            class="text-decoration-none color96979b fsRes ms-1" href="#">Filter</a>
                                     </div>
 
                                     <div class=" brEndGray h-100"> </div>
@@ -933,18 +934,22 @@
                                                 <div class="col-12 col-xl-6 mb-5 mb-xl-0 ">
                                                     <div class=" row">
                                                         <div class="col-12 col-sm-6 mb-5 mb-md-0">
-                                                           <div class="d-flex justify-content-center">
-                                                              <div class="maxWidth285px w-100">
+                                                            <div class="d-flex justify-content-center">
+                                                                <div class="maxWidth285px w-100">
                                                                     <div class="wrapper">
-                                                                        <div class="d-flex justify-content-between mb-2">
-                                                                            <h3 class="fs14px liteGrey">FILTER BY PRICE</h3>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mb-2">
+                                                                            <h3 class="fs14px liteGrey">FILTER BY PRICE
+                                                                            </h3>
                                                                         </div>
                                                                         <div class=" position-relative">
                                                                             <div class="slider-track"></div>
-                                                                            <input type="range" min="0" max="500" value="0"
-                                                                                step="10" id="slider-1" oninput="slideOne()">
-                                                                            <input type="range" min="0" max="500" value="500"
-                                                                                step="10" id="slider-2" oninput="slideTwo()">
+                                                                            <input type="range" min="0" max="500"
+                                                                                value="0" step="10" id="slider-1"
+                                                                                oninput="slideOne()">
+                                                                            <input type="range" min="0" max="500"
+                                                                                value="500" step="10" id="slider-2"
+                                                                                oninput="slideTwo()">
                                                                         </div>
                                                                         <div class="values">
                                                                             <p>
@@ -959,24 +964,28 @@
                                                                                 </span>
                                                                             </p>
                                                                         </div>
-                                                                        <div class=" d-none w-100 justify-content-around mt-3">
+                                                                        <div
+                                                                            class=" d-none w-100 justify-content-around mt-3">
                                                                             <div class="w-75">
-                                                                                <input class="w35 filterNumber disabledInput"
+                                                                                <input
+                                                                                    class="w35 filterNumber disabledInput"
                                                                                     type="text" value="&#36;0" disabled>
                                                                                 <span class="px-2">to</span>
-                                                                                <input class="w35 filterNumber disabledInput"
-                                                                                    type="text" value="&#36;500" disabled>
+                                                                                <input
+                                                                                    class="w35 filterNumber disabledInput"
+                                                                                    type="text" value="&#36;500"
+                                                                                    disabled>
                                                                             </div>
                                                                             <button
                                                                                 class="productButon border-0 rounded-1 ">GO</button>
                                                                         </div>
                                                                     </div>
-                                                              </div>
-                                                           </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class=" col-12 col-sm-6">
-                                                          <div class="d-flex justify-content-center">
-                                                              <div class="maxWidth285px w-100">
+                                                            <div class="d-flex justify-content-center">
+                                                                <div class="maxWidth285px w-100">
                                                                     <div class="d-flex justify-content-between mb-2">
                                                                         <h3 class="fs14px liteGrey">FILTER BY SIZE</h3>
                                                                     </div>
@@ -995,11 +1004,11 @@
                                                                             data-acik="true">3XL</button>
                                                                         <button class="m-1 brdashed colord7d8da"
                                                                             data-acik="true">4XL</button>
-        
-        
+
+
                                                                     </div>
-                                                              </div>
-                                                          </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1007,17 +1016,20 @@
                                                     <div class="row">
                                                         <div class="col-12 col-sm-6 col-md-4 mb-5 mb-md-0">
                                                             <div class="d-flex justify-content-center">
-                                                               <div class="maxWidth285px" >
+                                                                <div class="maxWidth285px">
                                                                     <div>
-                                                                        <h3 class="fs14px liteGrey ">FILTER BY CATOGORIES</h3>
+                                                                        <h3 class="fs14px liteGrey ">FILTER BY
+                                                                            CATOGORIES</h3>
                                                                     </div>
                                                                     <div class="accordion accordion-flush catogoriesScrol"
                                                                         id="accordionFlushExample">
                                                                         <div class="accordion-item ">
-                                                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                                            <h2 class="accordion-header"
+                                                                                id="flush-headingOne">
                                                                                 <button
                                                                                     class="accordion-button collapsed fs12px p-0"
-                                                                                    type="button" data-bs-toggle="collapse"
+                                                                                    type="button"
+                                                                                    data-bs-toggle="collapse"
                                                                                     data-bs-target="#flush-collapseOne"
                                                                                     aria-expanded="false"
                                                                                     aria-controls="flush-collapseOne">
@@ -1028,7 +1040,8 @@
                                                                                 class="accordion-collapse collapse"
                                                                                 aria-labelledby="flush-headingOne"
                                                                                 data-bs-parent="#accordionFlushExample">
-                                                                                <div class="superOpportunityHeader2 br2vw ">
+                                                                                <div
+                                                                                    class="superOpportunityHeader2 br2vw ">
                                                                                     <div class="aDblock">
                                                                                         <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                             href="#">sports</a>
@@ -1049,7 +1062,8 @@
                                                                                     id="flush-headingTwos">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseTwos"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseTwos">
@@ -1060,7 +1074,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingTwos"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1082,7 +1097,8 @@
                                                                                     id="flush-headingThree">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseThree"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseThree">
@@ -1093,7 +1109,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingThree"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1115,7 +1132,8 @@
                                                                                     id="flush-headingFor">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseFor"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseFor">
@@ -1126,7 +1144,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingFor"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1148,7 +1167,8 @@
                                                                                     id="flush-headingFive">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseFive"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseFive">
@@ -1159,7 +1179,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingFive"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1181,7 +1202,8 @@
                                                                                     id="flush-headingSix">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseSix"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseSix">
@@ -1192,7 +1214,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingSix"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1214,7 +1237,8 @@
                                                                                     id="flush-headingSeven">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseSeven"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseSeven">
@@ -1225,7 +1249,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingSeven"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1247,7 +1272,8 @@
                                                                                     id="flush-headingEight">
                                                                                     <button
                                                                                         class="accordion-button collapsed fs12px p-0"
-                                                                                        type="button" data-bs-toggle="collapse"
+                                                                                        type="button"
+                                                                                        data-bs-toggle="collapse"
                                                                                         data-bs-target="#flush-collapseEight"
                                                                                         aria-expanded="false"
                                                                                         aria-controls="flush-collapseEight">
@@ -1258,7 +1284,8 @@
                                                                                     class="accordion-collapse collapse"
                                                                                     aria-labelledby="flush-headingEight"
                                                                                     data-bs-parent="#accordionFlushExample">
-                                                                                    <div class="superOpportunityHeader2 br2vw ">
+                                                                                    <div
+                                                                                        class="superOpportunityHeader2 br2vw ">
                                                                                         <div class="aDblock">
                                                                                             <a class="text-decoration-none fs12px liteGrey ps-2"
                                                                                                 href="#">sports</a>
@@ -1284,13 +1311,15 @@
                                                             <div class="d-flex justify-content-center">
                                                                 <div class="maxWidth285px">
                                                                     <div class="d-flex justify-content-between mb-2">
-                                                                        <h3 class="fs14px liteGrey">FILTER BY BRANDS</h3>
+                                                                        <h3 class="fs14px liteGrey">FILTER BY BRANDS
+                                                                        </h3>
                                                                     </div>
                                                                     <div class="mt-2 pe-2 BrandsScrol">
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands1" class="ceked checkboxClr"
+                                                                                <input id="brands1"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands1">Casali</label>
                                                                             </div>
@@ -1298,7 +1327,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands2" class="ceked checkboxClr"
+                                                                                <input id="brands2"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands2">Casali</label>
                                                                             </div>
@@ -1306,7 +1336,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands3" class="ceked checkboxClr"
+                                                                                <input id="brands3"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands3">Casali</label>
                                                                             </div>
@@ -1314,7 +1345,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands4" class="ceked checkboxClr"
+                                                                                <input id="brands4"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands4">Casali</label>
                                                                             </div>
@@ -1322,7 +1354,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands5" class="ceked checkboxClr"
+                                                                                <input id="brands5"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands5">Casali</label>
                                                                             </div>
@@ -1330,7 +1363,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands6" class="ceked checkboxClr"
+                                                                                <input id="brands6"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands6">Casali</label>
                                                                             </div>
@@ -1338,7 +1372,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands7" class="ceked checkboxClr"
+                                                                                <input id="brands7"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands7">Casali</label>
                                                                             </div>
@@ -1346,7 +1381,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands8" class="ceked checkboxClr"
+                                                                                <input id="brands8"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands8">Casali</label>
                                                                             </div>
@@ -1354,7 +1390,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands1" class="ceked checkboxClr"
+                                                                                <input id="brands1"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands1">Casali</label>
                                                                             </div>
@@ -1362,7 +1399,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands2" class="ceked checkboxClr"
+                                                                                <input id="brands2"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands2">Casali</label>
                                                                             </div>
@@ -1370,7 +1408,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands3" class="ceked checkboxClr"
+                                                                                <input id="brands3"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands3">Casali</label>
                                                                             </div>
@@ -1378,7 +1417,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands4" class="ceked checkboxClr"
+                                                                                <input id="brands4"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands4">Casali</label>
                                                                             </div>
@@ -1386,7 +1426,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands5" class="ceked checkboxClr"
+                                                                                <input id="brands5"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands5">Casali</label>
                                                                             </div>
@@ -1394,7 +1435,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands6" class="ceked checkboxClr"
+                                                                                <input id="brands6"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands6">Casali</label>
                                                                             </div>
@@ -1402,7 +1444,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands7" class="ceked checkboxClr"
+                                                                                <input id="brands7"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands7">Casali</label>
                                                                             </div>
@@ -1410,7 +1453,8 @@
                                                                         <div
                                                                             class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
-                                                                                <input id="brands8" class="ceked checkboxClr"
+                                                                                <input id="brands8"
+                                                                                    class="ceked checkboxClr"
                                                                                     type="checkbox">
                                                                                 <label for="brands8">Casali</label>
                                                                             </div>
@@ -1571,10 +1615,10 @@
                             <div class="col-12 col-sm-6 col-xl-3 border-end border-bottom itemsPage ">
                                 <div class="row">
                                     <button class="col-md-4 col-lg-12 col-xl-12 border-0 bg-white productClick"
-                                        id="productButton1">
+                                        id="productButton2">
                                         <div class=" position-relative">
                                             <div class="d-flex justify-content-center">
-                                                <img class=" maxHeight maxWidth100" id="productImage1"
+                                                <img class=" maxHeight maxWidth100" id="productImage2"
                                                     src="images/productImg/product1.webp" alt="product">
                                             </div>
                                             <div
@@ -2477,303 +2521,19 @@
     <script src="owl-carousel/owl.carousel.min.js"></script>
 
     <script src="js/style.js"></script>
+    <script src="js/doubleRange.js"></script>
     <script>
-        window.onload = function () {
-            slideOne();
-            slideTwo();
-        }
-
-        let sliderOne = document.getElementById("slider-1");
-        let sliderTwo = document.getElementById("slider-2");
-        let displayValOne = document.getElementById("range1");
-        let displayValTwo = document.getElementById("range2");
-        let minGap = 0;
-        let sliderTrack = document.querySelector(".slider-track");
-        let sliderMaxValue = document.getElementById("slider-1").max;
-
-        function slideOne() {
-            if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
-                sliderOne.value = parseInt(sliderTwo.value) - minGap;
-            }
-            displayValOne.textContent = sliderOne.value;
-            fillColor();
-        }
-        function slideTwo() {
-            if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
-                sliderTwo.value = parseInt(sliderOne.value) + minGap;
-            }
-            displayValTwo.textContent = sliderTwo.value;
-            fillColor();
-        }
-        function fillColor() {
-            percent1 = (sliderOne.value / sliderMaxValue) * 100;
-            percent2 = (sliderTwo.value / sliderMaxValue) * 100;
-            sliderTrack.style.background = `linear-gradient(to right, #cacbcd ${percent1}% , #fa4f91 ${percent1}% , #fa4f91 ${percent2}%, #cacbcd ${percent2}%)`;
-        }
-    </script>
-    <script>
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("btnMore");
-            var btnIcon = document.getElementById("btnicon");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Filter";
-                moreText.style.display = "none";
-                btnIcon.style.display = "none" ;
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Clear";
-                moreText.style.display = "inline";
-                btnIcon.style.display = "block" ;
-            }
-        }
-
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const pageButtons = document.querySelectorAll(".page-button");
-            const items = document.querySelectorAll(".itemsPage");
-            const itemsPerPage = 18;
-            let currentPage = 1;
-
-            function displayPage(pageNumber) {
-                items.forEach((item, index) => {
-                    if (index >= (pageNumber - 1) * itemsPerPage && index < pageNumber * itemsPerPage) {
-                        item.style.display = "block";
-                    } else {
-                        item.style.display = "none";
-                    }
-                });
-            }
-
-            function setActiveButton(index) {
-                pageButtons.forEach((button, i) => {
-                    if (i === index) {
-                        displayPage(i + 1);
-                        button.style.backgroundColor = "#fa4f91";
-                        button.style.color = "#fff";
-                        button.style.borderRadius = "0.25rem";
-
-                    } else {
-                        button.style.backgroundColor = "#fff";
-                        button.style.color = "#cacbcd";
-                    }
-                });
-            }
-
-            // "Next" linkine tıklanınca bir sonraki sayfaya geç
-            document.getElementById("sonraki").addEventListener("click", function () {
-                if (currentPage < pageButtons.length) {
-                    currentPage++;
-                    setActiveButton(currentPage - 1);
-                }
-            });
-
-            // "Prev" linkine tıklanınca bir önceki sayfaya geç
-            document.getElementById("onceki").addEventListener("click", function () {
-                if (currentPage > 1) {
-                    currentPage--;
-                    setActiveButton(currentPage - 1);
-                }
-            });
-
-            // Sayfa numaralarına tıklandığında sayfa numarasını güncelle
-            pageButtons.forEach((button, index) => {
-                button.addEventListener("click", function () {
-                    setActiveButton(index);
-                    currentPage = index + 1;
-                });
-            });
-
-            setActiveButton(0);
-        });
+        productImgHover()
+        imgchange();
+        coppy();
+        heart();
+        productchange();
+        buttonOpenClose();
+        checkboxclr();
+        pagination();
+        UpdatemoreLess();
     </script>
 </body>
-<script>
-    // heart
-    var butonlar = document.getElementsByClassName("starting");
 
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var picture = this.querySelector(".picture"); // İlgili butona ait resim
-            var acikMi = this.getAttribute("data-open") === "true";
-
-            if (acikMi) {
-                picture.src = "images/Icon Heart.png";
-            } else {
-                picture.src = "images/Icon HeartP.png";
-            }
-
-            // data-open özelliğini tersine çevirin
-            this.setAttribute("data-open", acikMi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    // copy
-    var butonlar = document.getElementsByClassName("starting");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var picture = this.querySelector(".copy"); // İlgili butona ait resim
-            var acikMi = this.getAttribute("data-open") === "true";
-
-            if (acikMi) {
-                picture.src = "images/Icon Compare.png";
-            } else {
-                picture.src = "images/Icon Comparep.png";
-            }
-            // data-open özelliğini tersine çevirin
-            this.setAttribute("data-open", acikMi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    var butonlar = document.getElementsByClassName("brdashed");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var acikmi = this.getAttribute("data-acik") === "true";
-
-            if (acikmi) {
-                this.style.backgroundColor = "#19c144";
-                this.style.border = "1px solid #19c144";
-            } else {
-                this.style.backgroundColor = "#fff";
-                this.style.border = "1px dashed #d7d8da";
-            }
-
-            // data-acik özelliğini tersine çevir
-            this.setAttribute("data-acik", acikmi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    var butonlar = document.getElementsByClassName("clrJs");
-    var checkboxlar = document.getElementsByClassName("checkboxClr");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            // checkboxlar, HTMLCollection, bir dizi benzeri bir nesnedir
-            // doğrudan .checked özelliğini kullanamazsınız
-            var checkboxlarDizi = Array.from(checkboxlar);
-
-            // Her bir checkbox'ı kontrol et
-            checkboxlarDizi.forEach(function (checkbox) {
-                if (checkbox.checked) {
-                    checkbox.checked = false; // Checkbox işaretlerini kaldır
-                }
-            });
-        });
-    }
-</script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const product1Stars = document.querySelectorAll("#product1 .star");
-        const product2Stars = document.querySelectorAll("#product2 .star");
-
-        product1Stars.forEach(star => {
-            star.addEventListener("mouseover", function () {
-                const rating = this.getAttribute("data-rating");
-                highlightStars(product1Stars, rating);
-            });
-
-            star.addEventListener("mouseout", function () {
-                unhighlightStars(product1Stars);
-            });
-
-            star.addEventListener("click", function () {
-                const rating = this.getAttribute("data-rating");
-                // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                alert("Ürün 1 Değerlendirme: " + rating);
-            });
-        });
-
-        product2Stars.forEach(star => {
-            star.addEventListener("mouseover", function () {
-                const rating = this.getAttribute("data-rating");
-                highlightStars(product2Stars, rating);
-            });
-
-            star.addEventListener("mouseout", function () {
-                unhighlightStars(product2Stars);
-            });
-
-            star.addEventListener("click", function () {
-                const rating = this.getAttribute("data-rating");
-                // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                alert("Ürün 2 Değerlendirme: " + rating);
-            });
-        });
-
-        function highlightStars(stars, rating) {
-            stars.forEach(star => {
-                const starRating = star.getAttribute("data-rating");
-                if (starRating <= rating) {
-                    star.classList.add("active");
-                } else {
-                    star.classList.remove("active");
-                }
-            });
-        }
-
-        function unhighlightStars(stars) {
-            stars.forEach(star => {
-                star.classList.remove("active");
-            });
-        }
-    });
-</script>
-<script>
-    // Tüm productClick düğmelerini seçin
-    const productButtons = document.querySelectorAll('.productClick');
-
-    productButtons.forEach(function (button) {
-        const toggleContentDiv = button.nextElementSibling.querySelector('.toggleContent');
-        const shortDtealDiv = button.nextElementSibling.querySelector('.shortDteal');
-        button.addEventListener('click', function () {
-            // toggleContent gizlendiyse göster, aksi takdirde gizle
-            toggleContentDiv.classList.toggle('d-none');
-            shortDtealDiv.classList.toggle('d-none');
-        });
-    });
-</script>
-<script>
-    // İlk buton için
-    var productButton1 = document.getElementById("productButton1");
-    var productImage1 = document.getElementById("productImage1");
-    var images1 = ["images/productImg/product1.webp", "images/productImg/product2.webp", "images/productImg/product3.webp"];
-    var currentIndex1 = 0;
-
-    productButton1.addEventListener("mousemove", function (e) {
-        var width = productButton1.offsetWidth;
-        var x = e.clientX - productButton1.getBoundingClientRect().left;
-
-        currentIndex1 = Math.floor((x / width) * images1.length);
-        currentIndex1 = Math.min(currentIndex1, images1.length - 1);
-
-        productImage1.src = images1[currentIndex1];
-    });
-
-    // İkinci buton için
-    var productButton2 = document.getElementById("productButton2");
-    var productImage2 = document.getElementById("productImage2");
-    var images2 = ["images/productImg/product1.webp", "images/productImg/product3.webp", "images/productImg/product2.webp"];
-    var currentIndex2 = 0;
-
-    productButton2.addEventListener("mousemove", function (e) {
-        var width = productButton2.offsetWidth;
-        var x = e.clientX - productButton2.getBoundingClientRect().left;
-
-        currentIndex2 = Math.floor((x / width) * images2.length);
-        currentIndex2 = Math.min(currentIndex2, images2.length - 1);
-
-        productImage2.src = images2[currentIndex2];
-    });
-</script>
 
 </html>

@@ -1218,7 +1218,7 @@
                                             <p>12</p>
                                         </div>
                                     </div>
-                                    <button class="border-0 bg-transparent color6e5ec0" onclick="myFunction()"
+                                    <button class="border-0 bg-transparent color6e5ec0" onclick="moreLess()"
                                         id="btnMore">Brands more</button>
                                 </div>
                             </div>
@@ -1503,10 +1503,10 @@
                                 <div class="col-12 col-sm-6 col-xl-4 border-end border-bottom itemsPage ">
                                     <div class="row">
                                         <button class="col-md-4 col-lg-12 col-xl-12 border-0 bg-white productClick"
-                                            id="productButton1">
+                                            id="productButton2">
                                             <div class=" position-relative">
                                                 <div class="d-flex justify-content-center">
-                                                    <img class=" maxHeight maxWidth100" id="productImage1"
+                                                    <img class=" maxHeight maxWidth100" id="productImage2"
                                                         src="images/productImg/product1.webp" alt="product">
                                                 </div>
                                                 <div
@@ -2345,239 +2345,17 @@
     <script src="owl-carousel/owl.carousel.min.js"></script>
 
     <script src="js/style.js"></script>
-    <script>
-        window.onload = function () {
-            slideOne();
-            slideTwo();
-        }
-
-        let sliderOne = document.getElementById("slider-1");
-        let sliderTwo = document.getElementById("slider-2");
-        let displayValOne = document.getElementById("range1");
-        let displayValTwo = document.getElementById("range2");
-        let minGap = 0;
-        let sliderTrack = document.querySelector(".slider-track");
-        let sliderMaxValue = document.getElementById("slider-1").max;
-
-        function slideOne() {
-            if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
-                sliderOne.value = parseInt(sliderTwo.value) - minGap;
-            }
-            displayValOne.textContent = sliderOne.value;
-            fillColor();
-        }
-        function slideTwo() {
-            if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
-                sliderTwo.value = parseInt(sliderOne.value) + minGap;
-            }
-            displayValTwo.textContent = sliderTwo.value;
-            fillColor();
-        }
-        function fillColor() {
-            percent1 = (sliderOne.value / sliderMaxValue) * 100;
-            percent2 = (sliderTwo.value / sliderMaxValue) * 100;
-            sliderTrack.style.background = `linear-gradient(to right, #cacbcd ${percent1}% , #fa4f91 ${percent1}% , #fa4f91 ${percent2}%, #cacbcd ${percent2}%)`;
-        }
-    </script>
-    <script>
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("btnMore");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Brands more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Brands less";
-                moreText.style.display = "inline";
-            }
-        }
-    </script>
 </body>
+<script src="js/doubleRange.js"></script>
 <script>
-    // heart
-    var butonlar = document.getElementsByClassName("starting");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var picture = this.querySelector(".picture"); // İlgili butona ait resim
-            var acikMi = this.getAttribute("data-open") === "true";
-
-            if (acikMi) {
-                picture.src = "images/Icon Heart.png";
-            } else {
-                picture.src = "images/Icon HeartP.png";
-            }
-
-            // data-open özelliğini tersine çevirin
-            this.setAttribute("data-open", acikMi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    // copy
-    var butonlar = document.getElementsByClassName("starting");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var picture = this.querySelector(".copy"); // İlgili butona ait resim
-            var acikMi = this.getAttribute("data-open") === "true";
-
-            if (acikMi) {
-                picture.src = "images/Icon Compare.png";
-            } else {
-                picture.src = "images/Icon Comparep.png";
-            }
-            // data-open özelliğini tersine çevirin
-            this.setAttribute("data-open", acikMi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    var butonlar = document.getElementsByClassName("brdashed");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            var acikmi = this.getAttribute("data-acik") === "true";
-
-            if (acikmi) {
-                this.style.backgroundColor = "#19c144";
-                this.style.border = "1px solid #19c144";
-            } else {
-                this.style.backgroundColor = "#fff";
-                this.style.border = "1px dashed #d7d8da";
-            }
-
-            // data-acik özelliğini tersine çevir
-            this.setAttribute("data-acik", acikmi ? "false" : "true");
-        });
-    }
-</script>
-<script>
-    var butonlar = document.getElementsByClassName("clrJs");
-    var checkboxlar = document.getElementsByClassName("checkboxClr");
-
-    for (var i = 0; i < butonlar.length; i++) {
-        butonlar[i].addEventListener("click", function () {
-            // checkboxlar, HTMLCollection, bir dizi benzeri bir nesnedir
-            // doğrudan .checked özelliğini kullanamazsınız
-            var checkboxlarDizi = Array.from(checkboxlar);
-
-            // Her bir checkbox'ı kontrol et
-            checkboxlarDizi.forEach(function (checkbox) {
-                if (checkbox.checked) {
-                    checkbox.checked = false; // Checkbox işaretlerini kaldır
-                }
-            });
-        });
-    }
-</script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const product1Stars = document.querySelectorAll("#product1 .star");
-        const product2Stars = document.querySelectorAll("#product2 .star");
-
-        product1Stars.forEach(star => {
-            star.addEventListener("mouseover", function () {
-                const rating = this.getAttribute("data-rating");
-                highlightStars(product1Stars, rating);
-            });
-
-            star.addEventListener("mouseout", function () {
-                unhighlightStars(product1Stars);
-            });
-
-            star.addEventListener("click", function () {
-                const rating = this.getAttribute("data-rating");
-                // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                alert("Ürün 1 Değerlendirme: " + rating);
-            });
-        });
-
-        product2Stars.forEach(star => {
-            star.addEventListener("mouseover", function () {
-                const rating = this.getAttribute("data-rating");
-                highlightStars(product2Stars, rating);
-            });
-
-            star.addEventListener("mouseout", function () {
-                unhighlightStars(product2Stars);
-            });
-
-            star.addEventListener("click", function () {
-                const rating = this.getAttribute("data-rating");
-                // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                alert("Ürün 2 Değerlendirme: " + rating);
-            });
-        });
-
-        function highlightStars(stars, rating) {
-            stars.forEach(star => {
-                const starRating = star.getAttribute("data-rating");
-                if (starRating <= rating) {
-                    star.classList.add("active");
-                } else {
-                    star.classList.remove("active");
-                }
-            });
-        }
-
-        function unhighlightStars(stars) {
-            stars.forEach(star => {
-                star.classList.remove("active");
-            });
-        }
-    });
-</script>
-<script>
-    // Tüm productClick düğmelerini seçin
-    const productButtons = document.querySelectorAll('.productClick');
-
-    productButtons.forEach(function (button) {
-        const toggleContentDiv = button.nextElementSibling.querySelector('.toggleContent');
-        const shortDtealDiv = button.nextElementSibling.querySelector('.shortDteal');
-        button.addEventListener('click', function () {
-            // toggleContent gizlendiyse göster, aksi takdirde gizle
-            toggleContentDiv.classList.toggle('d-none');
-            shortDtealDiv.classList.toggle('d-none');
-        });
-    });
-</script>
-<script>
-    // İlk buton için
-    var productButton1 = document.getElementById("productButton1");
-    var productImage1 = document.getElementById("productImage1");
-    var images1 = ["images/productImg/product1.webp", "images/productImg/product2.webp", "images/productImg/product3.webp"];
-    var currentIndex1 = 0;
-
-    productButton1.addEventListener("mousemove", function (e) {
-        var width = productButton1.offsetWidth;
-        var x = e.clientX - productButton1.getBoundingClientRect().left;
-
-        currentIndex1 = Math.floor((x / width) * images1.length);
-        currentIndex1 = Math.min(currentIndex1, images1.length - 1);
-
-        productImage1.src = images1[currentIndex1];
-    });
-
-    // İkinci buton için
-    var productButton2 = document.getElementById("productButton2");
-    var productImage2 = document.getElementById("productImage2");
-    var images2 = ["images/productImg/product1.webp", "images/productImg/product3.webp", "images/productImg/product2.webp"];
-    var currentIndex2 = 0;
-
-    productButton2.addEventListener("mousemove", function (e) {
-        var width = productButton2.offsetWidth;
-        var x = e.clientX - productButton2.getBoundingClientRect().left;
-
-        currentIndex2 = Math.floor((x / width) * images2.length);
-        currentIndex2 = Math.min(currentIndex2, images2.length - 1);
-
-        productImage2.src = images2[currentIndex2];
-    });
+    productImgHover()
+    imgchange();
+    coppy();
+    heart();
+    moreLess();
+    productchange();
+    buttonOpenClose();
+    checkboxclr();
 </script>
 
 </html>

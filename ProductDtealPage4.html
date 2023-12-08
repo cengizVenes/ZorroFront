@@ -1035,8 +1035,8 @@
                         <div class="accordion accordion-flush Menus" id="accordionFlushExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                         aria-expanded="false" aria-controls="flush-collapseOne">
                                         WHAT’S INSIDE
                                     </button>
@@ -1082,8 +1082,8 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                         aria-expanded="false" aria-controls="flush-collapseTwo">
                                         Specification
                                     </button>
@@ -1136,8 +1136,8 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                         aria-expanded="false" aria-controls="flush-collapseThree">
                                         REVIEWS
                                     </button>
@@ -1206,8 +1206,8 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingFor">
-                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor"
+                                    <button class="accordion-button collapsed borderTopebebeb py-4 fw-600" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFor"
                                         aria-expanded="false" aria-controls="flush-collapseFor">
                                         FAQs
                                     </button>
@@ -1343,7 +1343,7 @@
                 </div>
             </div>
         </div>
-        <div class="bgFooterOn z-n1 position-relative">
+        <div class="bgFooterOn  position-relative">
             <div class="py-5"></div>
             <div>
                 <div class="rpHeader cardHeaderlink">
@@ -1668,7 +1668,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </main>
     <footer>
         <div class="footerBg">
@@ -1929,147 +1928,11 @@
     <script src="js/style.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const product1Stars = document.querySelectorAll("#product1 .star");
-            const product2Stars = document.querySelectorAll("#product2 .star");
-
-            product1Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product1Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product1Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 1 Değerlendirme: " + rating);
-                });
-            });
-
-            product2Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product2Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product2Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 2 Değerlendirme: " + rating);
-                });
-            });
-
-            function highlightStars(stars, rating) {
-                stars.forEach(star => {
-                    const starRating = star.getAttribute("data-rating");
-                    if (starRating <= rating) {
-                        star.classList.add("active");
-                    } else {
-                        star.classList.remove("active");
-                    }
-                });
-            }
-
-            function unhighlightStars(stars) {
-                stars.forEach(star => {
-                    star.classList.remove("active");
-                });
-            }
-        });
+        sizeguide()
+        coppy()
+        heart()
+        fancybox()
     </script>
-    <script>
-        // heart
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".picture"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Katman 1.png";
-                } else {
-                    picture.src = "images/Icon HeartP.png";
-                }
-
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".sizeguide"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/L0001 copy.png";
-                } else {
-                    picture.src = "images/Şekil 1.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".copy"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Icon CompareDark.png";
-                } else {
-                    picture.src = "images/Icon Comparep.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        var pidture1 = document.getElementById("image1");
-        var pidture2 = document.getElementById("image2");
-        var pidture3 = document.getElementById("image3");
-        var pidture4 = document.getElementById("image4");
-        var viewImg = document.getElementById("viewImg");
-        var img1 = "images/productImg/product1.webp";
-        var img2 = "images/productImg/product2.webp";
-        var img3 = "images/productImg/product3.webp";
-        var img4 = "images/productImg/product4.webp";
-        viewImg.src = img1;
-        pidture1.addEventListener("click", function () {
-            viewImg.src = img1;
-        });
-        pidture2.addEventListener("click", function () {
-            viewImg.src = img2;
-        });
-        pidture3.addEventListener("click", function () {
-            viewImg.src = img3;
-        });
-        pidture4.addEventListener("click", function () {
-            viewImg.src = img4;
-        });
-
-    </script>
-    <script>
-        Fancybox.bind('[data-fancybox="gallery"]', {});
-    </script>
+</body>
 
 </html>

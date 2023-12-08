@@ -887,16 +887,28 @@
                             <div
                                 class="CarouselDteal owl-carousel owl-theme justify-content-start justify-content-xl-center">
                                 <div class="item d-flex justify-content-center wr75">
-                                    <img class="w-50" src="images/productImg/product1.webp" alt="">
+                                    <a class="d-flex justify-content-center w-100 h-100 cursorZoom"
+                                        href="images/productImg/product1.webp" data-fancybox="gallery">
+                                        <img class="w-50" src="images/productImg/product1.webp" alt="">
+                                    </a>
                                 </div>
                                 <div class="item d-flex justify-content-center wr75">
-                                    <img class="w-50" src="images/productImg/product2.webp" alt="">
+                                    <a class="d-flex justify-content-center w-100 h-100 cursorZoom"
+                                        href="images/productImg/product2.webp" data-fancybox="gallery">
+                                        <img class="w-50" src="images/productImg/product2.webp" alt="">
+                                    </a>
                                 </div>
                                 <div class="item d-flex justify-content-center wr75">
-                                    <img class="w-50" src="images/productImg/product3.webp" alt="">
+                                    <a class="d-flex justify-content-center w-100 h-100 cursorZoom"
+                                        href="images/productImg/product3.webp" data-fancybox="gallery">
+                                        <img class="w-50" src="images/productImg/product3.webp" alt="">
+                                    </a>
                                 </div>
                                 <div class="item d-flex justify-content-center wr75">
-                                    <img class="w-50" src="images/productImg/product4.webp" alt="">
+                                    <a class="d-flex justify-content-center w-100 h-100 cursorZoom"
+                                        href="images/productImg/product4.webp" data-fancybox="gallery">
+                                        <img class="w-50" src="images/productImg/product4.webp" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1289,12 +1301,15 @@
                                                 </div>
                                             </div>
                                             <form class="w-100 mt-3" action="">
-                                                <textarea class="rounded-2 p-3 w-100 borderebebeb color676970 bg-transparent" name=""
-                                                    id="" cols="30" rows="5" placeholder="Message"></textarea>
+                                                <textarea
+                                                    class="rounded-2 p-3 w-100 borderebebeb color676970 bg-transparent"
+                                                    name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
                                                 <div class="w-100 d-flex gap-3 gap-xl-5 mt-4">
-                                                    <input class="w-50 rounded-2 borderebebeb px-3 py-1 color676970 bg-transparent"
+                                                    <input
+                                                        class="w-50 rounded-2 borderebebeb px-3 py-1 color676970 bg-transparent"
                                                         type="text" placeholder="Name ">
-                                                    <input class="w-50 rounded-2 borderebebeb px-3 py-1 color676970 bg-transparent"
+                                                    <input
+                                                        class="w-50 rounded-2 borderebebeb px-3 py-1 color676970 bg-transparent"
                                                         type="email" placeholder="Email Address ">
                                                 </div>
                                             </form>
@@ -2031,149 +2046,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/style.js"></script>
-
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const product1Stars = document.querySelectorAll("#product1 .star");
-            const product2Stars = document.querySelectorAll("#product2 .star");
-
-            product1Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product1Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product1Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 1 Değerlendirme: " + rating);
-                });
-            });
-
-            product2Stars.forEach(star => {
-                star.addEventListener("mouseover", function () {
-                    const rating = this.getAttribute("data-rating");
-                    highlightStars(product2Stars, rating);
-                });
-
-                star.addEventListener("mouseout", function () {
-                    unhighlightStars(product2Stars);
-                });
-
-                star.addEventListener("click", function () {
-                    const rating = this.getAttribute("data-rating");
-                    // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-                    alert("Ürün 2 Değerlendirme: " + rating);
-                });
-            });
-
-            function highlightStars(stars, rating) {
-                stars.forEach(star => {
-                    const starRating = star.getAttribute("data-rating");
-                    if (starRating <= rating) {
-                        star.classList.add("active");
-                    } else {
-                        star.classList.remove("active");
-                    }
-                });
-            }
-
-            function unhighlightStars(stars) {
-                stars.forEach(star => {
-                    star.classList.remove("active");
-                });
-            }
-        });
+        sizeguide()
+        coppy()
+        heart()
+        fancybox()
     </script>
-    <script>
-        // heart
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".picture"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Katman 1.png";
-                } else {
-                    picture.src = "images/Icon HeartP.png";
-                }
-
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".sizeguide"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/L0001 copy.png";
-                } else {
-                    picture.src = "images/Şekil 1.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        // copy
-        var butonlar = document.getElementsByClassName("starting");
-
-        for (var i = 0; i < butonlar.length; i++) {
-            butonlar[i].addEventListener("click", function () {
-                var picture = this.querySelector(".copy"); // İlgili butona ait resim
-                var acikMi = this.getAttribute("data-open") === "true";
-
-                if (acikMi) {
-                    picture.src = "images/Icon CompareDark.png";
-                } else {
-                    picture.src = "images/Icon Comparep.png";
-                }
-                // data-open özelliğini tersine çevirin
-                this.setAttribute("data-open", acikMi ? "false" : "true");
-            });
-        }
-    </script>
-    <script>
-        var pidture1 = document.getElementById("image1");
-        var pidture2 = document.getElementById("image2");
-        var pidture3 = document.getElementById("image3");
-        var pidture4 = document.getElementById("image4");
-        var viewImg = document.getElementById("viewImg");
-        var img1 = "images/productImg/product1.webp";
-        var img2 = "images/productImg/product2.webp";
-        var img3 = "images/productImg/product3.webp";
-        var img4 = "images/productImg/product4.webp";
-        viewImg.src = img1;
-        pidture1.addEventListener("click", function () {
-            viewImg.src = img1;
-        });
-        pidture2.addEventListener("click", function () {
-            viewImg.src = img2;
-        });
-        pidture3.addEventListener("click", function () {
-            viewImg.src = img3;
-        });
-        pidture4.addEventListener("click", function () {
-            viewImg.src = img4;
-        });
-
-    </script>
-    <script>
-        Fancybox.bind('[data-fancybox="gallery"]', {});
-    </script>
-
 </html>
