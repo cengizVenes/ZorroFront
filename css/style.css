@@ -1771,6 +1771,47 @@ input[type="number"]::-webkit-outer-spin-button {
     transform: scale(1) rotate(0);
 }
 
+input[type="search"]::-webkit-search-clear-button,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* radio */
+.paymentRadio {
+    font-size: 3em;
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    transform: translate(5px, 3px);
+    border: 1px solid #eee;
+    background-clip: border-box;
+    border-radius: 50%;
+    appearance: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: white;
+}
+
+.paymentRadio:checked {
+    background-image: url("../images/Selected.png");
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.paymentActive {
+    display: none;
+}
+
+.paymentRadio:checked+label+.paymentActive {
+    display: block;
+}
+
+.hovertext:hover {
+    text-decoration: underline !important;
+}
+
 #more {
     display: none;
 }
@@ -1865,7 +1906,15 @@ input[type="number"]::-webkit-outer-spin-button {
     transition: .2s;
     background-color: transparent;
 }
-
+.BlogListButton>button
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    background-color: transparent;
+}
 
 .stars {
     display: flex;
@@ -2547,18 +2596,77 @@ td {
 .maxw425px {
     max-width: 425px;
 }
-
-.checkoutForm div>label ,.checkoutForm>label{
+.myAccountForm>label
+{
+    color: #676970;
+    margin: 25px 0 10px;
+}
+.myAccountForm>input
+{
+    color: #676970;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    padding: 8px 15px;
+    width: 100%;
+}
+.myAccountForm>input:focus-visible
+{
+    outline: none;
+}
+.checkoutForm div>label,
+.checkoutForm>label {
     color: #676970;
 }
 
-.checkoutForm div>input ,.checkoutForm textarea{
+.checkoutForm div>input,
+.checkoutForm textarea {
     color: #676970;
     border-radius: 4px;
     border: 1px solid #676970;
     padding: 10px 15px;
 }
 
-.checkoutForm div>input:focus-visible ,.checkoutForm textarea:focus-visible{
+.checkoutForm div>input:focus-visible,
+.checkoutForm textarea:focus-visible {
     outline: none;
+}
+
+@media(max-width:576px) {
+    .maxWidth100 {
+        width: 100%;
+    }
+}
+
+.blogSearch:focus-visible {
+    outline: none;
+}
+
+.blogSearch {
+    background-color: transparent;
+    border: 1px solid #ebebeb;
+    color: #676970;
+}
+
+.blogLink:hover {
+    color: #fa4f91;
+    text-decoration: underline !important;
+}
+.maxh42 p{
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wh62
+{
+    width: 62px;
+    height: 62px;
+}
+.wFitContent
+{
+    width: fit-content;
+}
+.my-7
+{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
