@@ -464,7 +464,8 @@ sup {
 .productLink::after {
     content: "";
     display: block;
-    width: 0%;
+    width: 100%;
+    transform: scaleX(0);
     height: 3px;
     border-radius: 3px;
     background-color: #fa4f91;
@@ -472,7 +473,7 @@ sup {
 }
 
 .productLink:hover::after {
-    width: 100%;
+    transform: scaleX(1);
 }
 
 .bannerButtonBg {
@@ -1423,7 +1424,24 @@ sup {
         'footer footer footer footer footer2 footer2 footer2 footer2 footer2 footer2 right right right right right';
     gap: 25px;
 }
-
+@media(max-width:992px)
+{
+    .gridContainer {
+        grid-template-areas:
+            'head1 head1 head1 head1 head1 head1 head2 head2 head2 head2 head2 head2 head2 head2 head2'
+            'footer footer footer footer footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2'
+            'right right right right right right right right right right right right right right right ';
+    }
+}
+@media(max-width:767px)
+{
+    .gridContainer {
+        grid-template-areas:
+            'head1 head1 head1 head1 head1 head1 head2 head2 head2 head2 head2 head2 head2 head2 head2'
+            'footer footer footer footer footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2'
+            'right right right right right right right right right right right right right right right ';
+    }
+}
 .filterImg {
     filter: brightness(0) invert(0.9);
 }
@@ -1873,6 +1891,10 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: #37e6e8;
 }
 
+.bgbbbbbb {
+    background-color: #bbbbbb;
+}
+
 .bg524d4e {
     background-color: #524d4e;
 }
@@ -1906,8 +1928,8 @@ input[type="search"]::-webkit-search-results-decoration {
     transition: .2s;
     background-color: transparent;
 }
-.BlogListButton>button
-{
+
+.BlogListButton>button {
     text-align: center;
     display: flex;
     align-items: center;
@@ -2560,7 +2582,7 @@ td {
 }
 
 .wh50 {
-    width: 50px;
+    width: 50px !important;
 }
 
 .shopingKart tr {
@@ -2596,23 +2618,30 @@ td {
 .maxw425px {
     max-width: 425px;
 }
-.myAccountForm>label
-{
+
+@media(max-width:576px) {
+    .maxw425px {
+        max-width: 100%;
+    }
+}
+
+.myAccountForm>label {
     color: #676970;
     margin: 25px 0 10px;
 }
-.myAccountForm>input
-{
+
+.myAccountForm>input {
     color: #676970;
     border-radius: 4px;
     border: 1px solid #ebebeb;
     padding: 8px 15px;
     width: 100%;
 }
-.myAccountForm>input:focus-visible
-{
+
+.myAccountForm>input:focus-visible {
     outline: none;
 }
+
 .checkoutForm div>label,
 .checkoutForm>label {
     color: #676970;
@@ -2651,22 +2680,91 @@ td {
     color: #fa4f91;
     text-decoration: underline !important;
 }
-.maxh42 p{
+
+.maxh42 p {
     max-height: 42px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.wh62
-{
+
+.wh62 {
     width: 62px;
     height: 62px;
 }
-.wFitContent
-{
+
+.wFitContent {
     width: fit-content;
 }
-.my-7
-{
+
+.my-7 {
     margin-top: 7rem;
     margin-bottom: 7rem;
+}
+
+@media(min-width:992px) {
+    .accountBefore::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 700px;
+        margin-top: 20px;
+        border-left: 1px solid #ebebeb;
+        margin-right: 50px;
+    }
+}
+
+.wh47px {
+    width: 47px;
+    height: 47px;
+}
+
+.videoStill i {
+    transform: translate(18px, 12px);
+}
+
+.videoStill {
+    background-image: url("../images/video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.videoStill>div {
+    transition: .3s;
+}
+
+.videoStill:hover.videoStill>div {
+    background-color: #00000034;
+}
+
+.foundersImg {
+    max-height: 236px;
+    max-width: 170px;
+}
+
+@media(max-width:1200px) {
+    .h332 {
+        height: 332px !important;
+    }
+}
+
+.justify-content-spacebeetwen {
+    justify-content: space-between;
+}
+
+.aboutCarousel .owl-dots .owl-dot.active span {
+    background: #fa4f91;
+}
+
+.aboutCarousel .owl-dots .owl-dot:hover span {
+    background: #d6d6d6;
+}
+
+.aboutCarousel .owl-dots .owl-dot:hover.active span {
+    background: #fa4f91;
+}
+
+.aboutCarousel .owl-dots {
+    display: flex;
 }

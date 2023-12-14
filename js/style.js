@@ -90,6 +90,21 @@ $(".Carousel6").owlCarousel({
     },
   },
 });
+$(".aboutCarousel").owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: false,
+  dots: true,
+  items:1,
+  responsive: {
+    0: {
+    },
+    770: {
+    },
+    1200: {
+    },
+  },
+});
 $(".comment").owlCarousel({
   loop: false,
   margin: 10,
