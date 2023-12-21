@@ -71,6 +71,24 @@ $(".Carousel3").owlCarousel({
     },
   },
 });
+$(".HomeLinkCarousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  dots: false,
+  autoWidth:true,
+  responsive: {
+    0: {
+      items: 5,
+    },
+    770: {
+      items: 5,
+    },
+    1200: {
+      items: 9,
+    },
+  },
+});
 $(".Carousel6").owlCarousel({
   loop: false,
   margin: 10,
@@ -378,61 +396,59 @@ function heart() {
 }
 // product hover events
 function productStar() {
-  document.addEventListener("DOMContentLoaded", function () {
-    const product1Stars = document.querySelectorAll("#product1 .star");
-    const product2Stars = document.querySelectorAll("#product2 .star");
+  const product1Stars = document.querySelectorAll("#product1 .star");
+  const product2Stars = document.querySelectorAll("#product2 .star");
 
-    product1Stars.forEach((star) => {
-      star.addEventListener("mouseover", function () {
-        const rating = this.getAttribute("data-rating");
-        highlightStars(product1Stars, rating);
-      });
-
-      star.addEventListener("mouseout", function () {
-        unhighlightStars(product1Stars);
-      });
-
-      star.addEventListener("click", function () {
-        const rating = this.getAttribute("data-rating");
-        // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-        alert("Ürün 1 Değerlendirme: " + rating);
-      });
+  product1Stars.forEach((star) => {
+    star.addEventListener("mouseover", function () {
+      const rating = this.getAttribute("data-rating");
+      highlightStars(product1Stars, rating);
     });
 
-    product2Stars.forEach((star) => {
-      star.addEventListener("mouseover", function () {
-        const rating = this.getAttribute("data-rating");
-        highlightStars(product2Stars, rating);
-      });
-
-      star.addEventListener("mouseout", function () {
-        unhighlightStars(product2Stars);
-      });
-
-      star.addEventListener("click", function () {
-        const rating = this.getAttribute("data-rating");
-        // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
-        alert("Ürün 2 Değerlendirme: " + rating);
-      });
+    star.addEventListener("mouseout", function () {
+      unhighlightStars(product1Stars);
     });
 
-    function highlightStars(stars, rating) {
-      stars.forEach((star) => {
-        const starRating = star.getAttribute("data-rating");
-        if (starRating <= rating) {
-          star.classList.add("active");
-        } else {
-          star.classList.remove("active");
-        }
-      });
-    }
-
-    function unhighlightStars(stars) {
-      stars.forEach((star) => {
-        star.classList.remove("active");
-      });
-    }
+    star.addEventListener("click", function () {
+      const rating = this.getAttribute("data-rating");
+      // Ürün 1 için seçilen yıldız değeriyle işlem yapabilirsiniz.
+      alert("Ürün 1 Değerlendirme: " + rating);
+    });
   });
+
+  product2Stars.forEach((star) => {
+    star.addEventListener("mouseover", function () {
+      const rating = this.getAttribute("data-rating");
+      highlightStars(product2Stars, rating);
+    });
+
+    star.addEventListener("mouseout", function () {
+      unhighlightStars(product2Stars);
+    });
+
+    star.addEventListener("click", function () {
+      const rating = this.getAttribute("data-rating");
+      // Ürün 2 için seçilen yıldız değeriyle işlem yapabilirsiniz.
+      alert("Ürün 2 Değerlendirme: " + rating);
+    });
+  });
+
+  function highlightStars(stars, rating) {
+    stars.forEach((star) => {
+      const starRating = star.getAttribute("data-rating");
+      if (starRating <= rating) {
+        star.classList.add("active");
+      } else {
+        star.classList.remove("active");
+      }
+    });
+  }
+
+  function unhighlightStars(stars) {
+    stars.forEach((star) => {
+      star.classList.remove("active");
+    });
+  }
 }
 function fancybox() {
   Fancybox.bind('[data-fancybox="gallery"]', {});

@@ -1231,10 +1231,11 @@ sup {
 .mt100 {
     margin-top: 50px;
 }
-#dots
-{
+
+#dots {
     display: none;
 }
+
 .bgdddd {
     background-color: #dddddd;
 }
@@ -1283,7 +1284,12 @@ sup {
 .w460px {
     width: 460px;
 }
-
+@media(max-width:767px)
+{
+    .w460px {
+        width: 198px;
+    }    
+}
 .w200px {
     width: 200px;
 }
@@ -1333,14 +1339,26 @@ sup {
     height: 500px;
 }
 
-.pb15rem {
-    padding-bottom: 1.5rem;
+@media(min-width: 992px) 
+{
+    .pb15rem {
+        padding-bottom: 1.5rem;
+    }
+    
+    .pt15rem {
+        padding-top: 1.5rem;
+    }
 }
-
-.pt15rem {
-    padding-top: 1.5rem;
+@media(max-width: 767px) 
+{
+    .pb15rem {
+        padding-bottom: 1.5rem;
+    }
+    
+    .pt15rem {
+        padding-top: 1.5rem;
+    }
 }
-
 .lh-05 {
     line-height: 0.8;
 }
@@ -1427,8 +1445,8 @@ sup {
         'footer footer footer footer footer2 footer2 footer2 footer2 footer2 footer2 right right right right right';
     gap: 25px;
 }
-@media(max-width:992px)
-{
+
+@media(max-width:992px) {
     .gridContainer {
         grid-template-areas:
             'head1 head1 head1 head1 head1 head1 head2 head2 head2 head2 head2 head2 head2 head2 head2'
@@ -1436,8 +1454,8 @@ sup {
             'right right right right right right right right right right right right right right right ';
     }
 }
-@media(max-width:767px)
-{
+
+@media(max-width:767px) {
     .gridContainer {
         grid-template-areas:
             'head1 head1 head1 head1 head1 head1 head2 head2 head2 head2 head2 head2 head2 head2 head2'
@@ -1445,6 +1463,7 @@ sup {
             'right right right right right right right right right right right right right right right ';
     }
 }
+
 .filterImg {
     filter: brightness(0) invert(0.9);
 }
@@ -1466,6 +1485,7 @@ sup {
 .selectProp:focus-visible {
     outline: 0px;
 }
+
 .brEndGray {
     border-right: 1px solid #ebebeb;
 }
@@ -1473,6 +1493,7 @@ sup {
 .brBBottomGray {
     border-bottom: 1px solid #ebebeb;
 }
+
 .maxHeight {
     max-height: 300px;
 }
@@ -2768,4 +2789,120 @@ td {
 
 .aboutCarousel .owl-dots {
     display: flex;
+}
+
+@media(max-width:550px) {
+    .rCatogory1 {
+        display: none;
+    }
+}
+@media(max-width:500px) {
+    .rCatogory2 {
+        display: none;
+    }
+}
+@media(max-width:450px) {
+    .rCatogory3 {
+        display: none;
+    }
+}
+@media(max-width:992px)
+{
+    .infoBorder
+    {
+        border-top: 1px solid #dee2e6;
+        border-left: none;
+    }
+}
+@media(min-width:992px)
+{
+    .infoBorder
+    {
+        border-left: 1px solid #dee2e6;
+        border-top: none;
+    }
+}
+@media (576px <= width <= 992px)
+{
+    .resborder
+    {
+        border: none;
+    }
+}
+@media(min-width:992px)
+{
+    .infoRounded
+    {
+        border-radius: 0 !important;
+        border-top-left-radius:6px !important;
+        border-bottom-left-radius:6px !important;
+    }
+    .infoRounded4
+    {
+        border-radius: 0 !important;
+        border-top-right-radius:6px !important;
+        border-bottom-right-radius:6px !important;
+    }
+}
+@media(max-width:992px)
+{
+    .infoRounded
+    {
+        border-radius: 0 !important;
+        border-top-left-radius:6px !important;
+    }
+    .infoRounded2
+    {
+        border-radius: 0 !important;
+        border-top-right-radius:6px !important;
+    }
+    .infoRounded3
+    {
+        border-radius: 0 !important;
+        border-bottom-left-radius:6px !important;
+    }
+    .infoRounded4
+    {
+        border-radius: 0 !important;
+        border-bottom-right-radius:6px !important;
+    }
+}
+@media(max-width:577px)
+{
+    .infoRounded
+    {
+        border-radius: 0 !important;
+        border-top-left-radius:6px !important;
+        border-top-right-radius:6px !important;
+    }
+    .infoRounded4
+    {
+        border-radius: 0 !important;
+        border-bottom-left-radius:6px !important;
+        border-bottom-right-radius:6px !important;
+    }
+}
+.rWidth
+{
+    width: 80%;
+}
+@media(max-width:1200px)
+{
+    .rWidth{
+        width: 70%;
+    }
+}
+@media(max-width:992px)
+{
+    .rWidth
+    {
+        width: 60%;
+    }
+}
+@media(576px <= width <= 992px)
+{
+    .rFont
+    {
+        font-size: 22px !important;
+    }
 }
