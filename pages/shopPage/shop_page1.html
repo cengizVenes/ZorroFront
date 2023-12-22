@@ -1271,6 +1271,7 @@
                                 <div class="d-flex flex-wrap">
                                     <div class="colors">
                                         <button class="p-2 bg4370e1 rounded-1 border-0"></button>
+                                        <i class="fa-solid fa-square-check fs14px"></i>
                                         <button class="p-2 bg4434ee1 rounded-1 border-0"></button>
                                         <button class="p-2 bg8243e1 rounded-1 border-0"></button>
                                         <button class="p-2 bgb643e1 rounded-1 border-0"></button>
@@ -1295,15 +1296,23 @@
                                             src="../../assets/images/clear.png" alt="clear button"></button>
                                 </div>
                                 <div class="d-flex flex-wrap sizeFilter">
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">S</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">M</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">L</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">XL</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">XXL</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">3XL</button>
-                                    <button class="m-1 brdashed colord7d8da" data-acik="true">4XL</button>
-
-
+                                    <input id="s" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('s')" class="m-1 colord7d8da">S</button>
+                                    <input id="m" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('m')" class="m-1 colord7d8da">M</button>
+                                    <input id="l" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('l')" class="m-1 colord7d8da">L</button>
+                                    <input id="xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('xl')" class="m-1 colord7d8da">XL</button>
+                                    <input id="xxl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed"
+                                        type="checkbox">
+                                    <button onclick="isaretleCheckbox('xxl')" class="m-1 colord7d8da">XXL</button>
+                                    <input id="3xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed"
+                                        type="checkbox">
+                                    <button onclick="isaretleCheckbox('3xl')" class="m-1 colord7d8da">3XL</button>
+                                    <input id="4xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed"
+                                        type="checkbox">
+                                    <button onclick="isaretleCheckbox('4xl')" class="m-1 colord7d8da">4XL</button>
                                 </div>
                             </div>
                             <div class="p-4">
@@ -1506,7 +1515,7 @@
                                     <div class="col-md-4 col-lg-12 col-xl-4" id="productButton2">
                                         <div class=" position-relative">
                                             <div class="d-flex justify-content-center">
-                                                <img class=" maxHeight maxWidth100"id="productImage2"
+                                                <img class=" maxHeight maxWidth100" id="productImage2"
                                                     src="../../assets/images/productImg/product1.webp" alt="product">
                                             </div>
                                             <div
@@ -3057,7 +3066,6 @@
     pagination();
     imgchange();
     checkboxclr();
-    buttonOpenClose();
     coppy();
     heart();
     productImgHover();

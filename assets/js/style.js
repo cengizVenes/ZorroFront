@@ -76,7 +76,7 @@ $(".HomeLinkCarousel").owlCarousel({
   margin: 10,
   nav: false,
   dots: false,
-  autoWidth:true,
+  autoWidth: true,
   responsive: {
     0: {
       items: 5,
@@ -189,7 +189,7 @@ $(".Carousel2_1").owlCarousel({
       nav: false,
       items: 2,
     },
-    768: {
+    992: {
       items: 3,
     },
     1200: {
@@ -203,6 +203,7 @@ $(".Carousel2_2").owlCarousel({
   dots: false,
   drag: false,
   mouseDrag: false,
+  margin: 10,
   responsive: {
     0: {
       items: 1,
@@ -473,21 +474,25 @@ function checkboxclr() {
     });
   }
 }
+function isaretleCheckbox(checkboxId) {
+  var checkbox = document.getElementById(checkboxId);
+  if (checkbox.checked === true) {
+    checkbox.checked = false;
+  } else {
+    checkbox.checked = true;
+  }
+}
 function buttonOpenClose() {
   var butonlar = document.getElementsByClassName("brdashed");
-
+  var checkboxS = document.getElementById("s");
   for (var i = 0; i < butonlar.length; i++) {
     butonlar[i].addEventListener("click", function () {
       var acikmi = this.getAttribute("data-acik") === "true";
 
       if (acikmi) {
-        this.style.backgroundColor = "#19c144";
-        this.style.color = "#fff";
-        this.style.border = "1px solid #19c144";
+        checkboxS.checked = true;
       } else {
-        this.style.backgroundColor = "#fff";
-        this.style.color = "#d7d8da";
-        this.style.border = "1px dashed #d7d8da";
+        checkboxS.checked = false;
       }
 
       // data-acik özelliğini tersine çevir
