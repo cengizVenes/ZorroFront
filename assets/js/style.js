@@ -119,6 +119,19 @@ $(".aboutCarousel").owlCarousel({
     770: {},
     1200: {},
   },
+  onChanged: function (event) {
+    var activeImgIndex = event.item.index;
+    var activeImg = document.getElementById('activeImg');
+    if (activeImgIndex === 0) {
+      activeImg.src = "../../assets/images/productImg/product1.webp";
+    }
+    else if (activeImgIndex === 1) {
+      activeImg.src = "../../assets/images/productImg/product2.webp";
+    }
+    else if (activeImgIndex === 2) {
+      activeImg.src = "../../assets/images/productImg/product3.webp";
+    }
+  }
 });
 $(".comment").owlCarousel({
   loop: false,

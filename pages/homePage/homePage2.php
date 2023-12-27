@@ -8,11 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="../../assets/images/logo.ico" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="../../assets/owl-carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/owl-carousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
@@ -20,836 +17,7 @@
 
 <body>
     <header>
-        <div class="headerOn bbPruple">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-xl-5 col-xxl-4 p-0">
-                            <div class="owl-carousel Carousel3 owl-theme">
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a href="#">World's Fastest Online Shopping Hub</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a href="#"><i class="fa-solid fa-phone"></i> Hotline 1.800.123.456789</a>
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-xxl-8  p-0">
-                            <div class="owl-carousel Carousel2 owl-theme">
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a href="#">Advertise</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a href="#">Gift Card</a>
-
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a href="#">Todays Deal</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px ">
-                                    <li class="m-2">
-                                        <a href="#">Help</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor  fs10px">
-                                    <li class="m-2">
-                                        <a href="#">Store Location</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px ">
-                                    <li class="m-2">
-                                        <a href="#">Track Your Order</a>
-                                    </li>
-                                </div>
-                                <div class="item dotNone  headerLinkColor fs10px">
-                                    <li class="m-2">
-                                        <a class="d-flex align-items-center" href="#"><img class="w-14 me-1"
-                                                src="../../assets/images/Icon-USA Flag.png" alt="american flag"> English
-                                            <i class="fa-solid fa-caret-down fsMinIcon ms-2"></i>
-                                        </a>
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="headerOn">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-6 col-lg-2 p-2 d-flex align-items-center">
-                            <img class="" src="../../assets/images/logoandtext.png" alt="Zorro header icon">
-                            <img class="filterMenu ms-2 " src="../../assets/images/menuButon.svg"
-                                alt="mobil menu button">
-                        </div>
-                        <div
-                            class=" col-12 order-5 order-lg-1 col-lg-8 p-2 d-flex align-items-center justify-content-center">
-                            <form action=""
-                                class="searchForm h-100 w-100 d-flex     justify-content-end align-items-center">
-                                <input class="searchButton rounded-3 w-100" type="search">
-                                <button class="position-absolute btn-transparant">
-                                    <i class="fa-solid fa-magnifying-glass fa-sm"></i>
-                                </button>
-
-                            </form>
-                        </div>
-                        <div
-                            class="col-6 col-sm-4  order-1 order-lg-5 col-lg-2 p-2 d-flex align-items-center justify-content-around ">
-                            <div>
-                                <button type="button" class="btn-transparant position-relative">
-                                    <img class="w-xl-15" src="../../assets/images/Icon-Heart.png" alt="Heart icon">
-                                    <span
-                                        class="position-absolute top-0 start-100 fav badge rounded-pill bg-danger">1<span
-                                            class="visually-hidden">unread messages</span>
-                                    </span>
-                                </button>
-                            </div>
-                            <div>
-                                <button type="button" class="btn-transparant position-relative">
-                                    <img class="w-xl-15" src="../../assets/images/Icon-Cart.png" alt="cart icon">
-                                    <span
-                                        class="position-absolute top-0 start-100 fav badge rounded-pill bg-danger">2<span
-                                            class="visually-hidden">unread messages</span>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="signIn">
-                                <button type="button" class="btn-transparant position-relative">
-                                    <img class="w-xl-15 pe-1" src="../../assets/images/Icon-User.png" alt="User icon">
-                                    SIGN IN
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="">
-            <div class="no-m-p">
-                <div class="bg-white navbar sticky py-lg2">
-                    <ul class="menu-items fs10px">
-                        <li class="me-2">
-                            <a class="fs-6" href="#">Search By CATEGORY
-                                <img src="../../assets/images/Icon - Arrow.png" alt="icon right arrow">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Apliancess</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Electronics</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Mobile </a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Computer </a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Books </a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Home & Kitchen</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Man</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Woman</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Kids </a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Beauty </a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Apliancess</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Sports</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="menu-items fs10px">
-                        <li>
-                            <a href="#" class="menu-item first-item expand-btn">Fitness</a>
-                            <div class="mega-menu sample">
-                                <div class="content">
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 1</div>
-                                            <a href="#" class="img-wrapper"><span class="img"><img
-                                                        src="https://picsum.photos/400?random=1"
-                                                        alt="Random Image" /></span></a>
-                                            <p>Very beautiful.</p>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 2</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item with a long menu name 1</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 2</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 3</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 4</a></li>
-                                                <li><a href="#" class="menu-item">Item with a long menu name 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 3</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                    <div class="col">
-                                        <section>
-                                            <div class="menu-title">Category 4</div>
-                                            <ul class="mega-links">
-                                                <li><a href="#" class="menu-item">Item 1</a></li>
-                                                <li><a href="#" class="menu-item">Item 2</a></li>
-                                                <li><a href="#" class="menu-item">Item 3</a></li>
-                                                <li><a href="#" class="menu-item">Item 4</a></li>
-                                                <li><a href="#" class="menu-item">Item 5</a></li>
-                                            </ul>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include('../layout/header.html'); ?>
     </header>
     <main>
         <div class="bg-white w-100 h-100">
@@ -861,8 +29,7 @@
                                 <div class="bannerBg p-5 h-100">
                                     <div class="d-flex justify-content-center align-items-center h-100">
                                         <div class="mx-1 mx-sm-5">
-                                            <img class="productImgSize" src="../../assets/images/Product Image.png"
-                                                alt="product images">
+                                            <img class="productImgSize" src="../../assets/images/Product Image.png" alt="product images">
                                         </div>
                                         <div class="mx-1 mx-sm-5">
                                             <h2 class="fs-5 fs-sm-1 my-2 fw600 latoFont">UPTO 60% OFF</h2>
@@ -876,8 +43,7 @@
                                             <h3 class="fs65  text-white  lh-05 fs-sm-42 fw600">
                                                 SPECIAL <br> SALE
                                             </h3>
-                                            <button
-                                                class="bannerButtonBg rounded-1 border-0 fs12px fw-bold py-2 px-4 my-2">
+                                            <button class="bannerButtonBg rounded-1 border-0 fs12px fw-bold py-2 px-4 my-2">
                                                 SHOP NOW
                                             </button>
                                         </div>
@@ -922,17 +88,14 @@
                                 </div>
                                 <div class="h-50 pt15rem">
                                     <div class="bgfddecc w-100 h-100 p-4 position-relative">
-                                        <img class="position-absolute top-0 end-50" src="../../assets/images/Leaf.png"
-                                            alt="Leaf">
-                                        <img class="position-absolute bottom-0 end-75"
-                                            src="../../assets/images/Leaf2.png" alt="Leaf">
+                                        <img class="position-absolute top-0 end-50" src="../../assets/images/Leaf.png" alt="Leaf">
+                                        <img class="position-absolute bottom-0 end-75" src="../../assets/images/Leaf2.png" alt="Leaf">
                                         <h2 class="fw-light fs-5 cardHeader">TOP BRANDS <br> <span class="fs-2">
                                                 SUNGLASSES</span></h2>
                                         <p class="py-2">Nulla hendrerit quis libero <br>
                                             sit amet.
                                         </p>
-                                        <a class="text-decoration-none text3e3e3e tda fw-bold fs12px mt100 pt-3"
-                                            href="#">SHOP NOW</a>
+                                        <a class="text-decoration-none text3e3e3e tda fw-bold fs12px mt100 pt-3" href="#">SHOP NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -940,33 +103,26 @@
                         <div class="mt-3">
                             <div class="row border-bottom m-0">
                                 <div class="col-12 col-sm-6  col-lg-3">
-                                    <div
-                                        class="d-flex  m-3 me-0 rwBorderInfo justify-content-start justify-content-lg-center align-items-center">
+                                    <div class="d-flex  m-3 me-0 rwBorderInfo justify-content-start justify-content-lg-center align-items-center">
                                         <img class="me-1 " src="../../assets/images/icon.png" alt="free shiping icon">
                                         <p class="ms-1 liteGrey">Free shipping</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6  col-lg-3">
-                                    <div
-                                        class="d-flex  m-3 me-0 rwBorderInfo2 justify-content-start justify-content-lg-center align-items-center">
-                                        <img class="me-1 h40px" src="../../assets/images/icon2.png"
-                                            alt="free shiping icon">
+                                    <div class="d-flex  m-3 me-0 rwBorderInfo2 justify-content-start justify-content-lg-center align-items-center">
+                                        <img class="me-1 h40px" src="../../assets/images/icon2.png" alt="free shiping icon">
                                         <p class="ms-1 liteGrey">Money Back Guarantee</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6  col-lg-3">
-                                    <div
-                                        class="d-flex  m-3 me-0 rwBorderInfo3 justify-content-start justify-content-lg-center align-items-center">
-                                        <img class="me-1 h40px" src="../../assets/images/icon3.png"
-                                            alt="free shiping icon">
+                                    <div class="d-flex  m-3 me-0 rwBorderInfo3 justify-content-start justify-content-lg-center align-items-center">
+                                        <img class="me-1 h40px" src="../../assets/images/icon3.png" alt="free shiping icon">
                                         <p class="ms-1 liteGrey">Online Support 24x7</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6  col-lg-3">
-                                    <div
-                                        class="d-flex  m-3 me-0 justify-content-start justify-content-lg-center align-items-center">
-                                        <img class="me-1 h40px" src="../../assets/images/icon4.png"
-                                            alt="free shiping icon">
+                                    <div class="d-flex  m-3 me-0 justify-content-start justify-content-lg-center align-items-center">
+                                        <img class="me-1 h40px" src="../../assets/images/icon4.png" alt="free shiping icon">
                                         <p class="ms-1 liteGrey">100% Secure Payment</p>
                                     </div>
                                 </div>
@@ -1003,8 +159,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1044,8 +199,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1082,8 +236,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1120,8 +273,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1158,8 +310,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1196,8 +347,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1270,8 +420,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1308,8 +457,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1346,8 +494,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1384,8 +531,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1422,8 +568,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1460,8 +605,7 @@
                                                     <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                 </p>
                                                 <div class="d-flex  align-items-center productCard productCartEfect">
-                                                    <img class="w-auto w-25 pe-2 border-end "
-                                                        src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                    <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                     <p class="fs10 ps-2 lh12">Add to <br>
                                                         Cart</p>
                                                 </div>
@@ -1481,8 +625,7 @@
                                         <P class="fw-light text-black  mb-4">
                                             Nulla hendrerit quis
                                         </P>
-                                        <a class="text-decoration-none text-black tda fw-bold fs12px mt100 pt-3"
-                                            href="#">View now</a>
+                                        <a class="text-decoration-none text-black tda fw-bold fs12px mt100 pt-3" href="#">View now</a>
                                     </div>
                                     <div class="col-7">
                                         <div class="p-5 border-start border-black">
@@ -1510,14 +653,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Juicer
@@ -1533,14 +672,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/decore.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/decore.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Home Decore
@@ -1556,13 +691,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/bag.png" alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/bag.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Bag
@@ -1578,14 +710,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgfeedf4 h170px catogoryShadow">
                                                             <div class="p-3 h-100">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Hedphone.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hedphone
@@ -1601,14 +729,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hand Bag
@@ -1624,14 +748,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Necklace
@@ -1647,14 +767,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Belt
@@ -1670,14 +786,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Desigers shoe
@@ -1693,14 +805,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Tableware
@@ -1716,14 +824,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Chair
@@ -1739,14 +843,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Holder
@@ -1762,14 +862,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Table
@@ -1789,14 +885,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Juicer
@@ -1812,14 +904,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/decore.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/decore.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Home Decore
@@ -1835,13 +923,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/bag.png" alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/bag.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Bag
@@ -1857,14 +942,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgfeedf4 h170px catogoryShadow">
                                                             <div class="p-3 h-100">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Hedphone.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hedphone
@@ -1880,14 +961,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hand Bag
@@ -1903,14 +980,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Necklace
@@ -1926,14 +999,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Belt
@@ -1949,14 +1018,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Desigers shoe
@@ -1972,14 +1037,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Tableware
@@ -1995,14 +1056,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Chair
@@ -2018,14 +1075,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Holder
@@ -2041,14 +1094,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Table
@@ -2068,14 +1117,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Juicer
@@ -2091,14 +1136,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/decore.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/decore.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Home Decore
@@ -2114,13 +1155,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/bag.png" alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/bag.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Bag
@@ -2136,14 +1174,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgfeedf4 h170px catogoryShadow">
                                                             <div class="p-3 h-100">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Hedphone.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hedphone
@@ -2159,14 +1193,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Hand Bag
@@ -2182,14 +1212,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Necklace
@@ -2205,14 +1231,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Belt
@@ -2228,14 +1250,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Desigers shoe
@@ -2251,14 +1269,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Tableware
@@ -2274,14 +1288,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Chair
@@ -2297,14 +1307,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Holder
@@ -2320,14 +1326,10 @@
                                                     <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100   ">
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100"
-                                                                        src="../../assets/images/Juicer.png"
-                                                                        alt="Juicer">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
                                                                 </div>
-                                                                <div
-                                                                    class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
 
                                                                     <p class="liteGrey">
                                                                         Table
@@ -2355,8 +1357,7 @@
                                             <div class="w-100 h-100 d-flex justify-content-center align-items-center ">
                                                 <div>
                                                     <div class="d-flex justify-content-center w-100 mt-5">
-                                                        <img class="w-auto" src="../../assets/images/quote-9.png"
-                                                            alt="">
+                                                        <img class="w-auto" src="../../assets/images/quote-9.png" alt="">
                                                     </div>
                                                     <div class="text-center">
                                                         <p class="fs12px mt-3">
@@ -2387,8 +1388,7 @@
                                             <div class="w-100 h-100 d-flex justify-content-center align-items-center ">
                                                 <div>
                                                     <div class="d-flex justify-content-center w-100 mt-5">
-                                                        <img class="w-auto" src="../../assets/images/quote-9.png"
-                                                            alt="">
+                                                        <img class="w-auto" src="../../assets/images/quote-9.png" alt="">
                                                     </div>
                                                     <div class="text-center">
                                                         <p class="fs12px mt-3">
@@ -2419,8 +1419,7 @@
                                             <div class="w-100 h-100 d-flex justify-content-center align-items-center ">
                                                 <div>
                                                     <div class="d-flex justify-content-center w-100 mt-5">
-                                                        <img class="w-auto" src="../../assets/images/quote-9.png"
-                                                            alt="">
+                                                        <img class="w-auto" src="../../assets/images/quote-9.png" alt="">
                                                     </div>
                                                     <div class="text-center">
                                                         <p class="fs12px mt-3">
@@ -2457,8 +1456,7 @@
                                             adipiscing enigm
                                         </p>
                                         <div class="d-flex justify-content-start">
-                                            <button
-                                                class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">View
+                                            <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">View
                                                 More</button>
                                         </div>
                                     </div>
@@ -2469,8 +1467,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim" class="resim resimDesign"
-                                                    onmouseover="gosterResim(1)">
+                                                <div id="ana-resim" class="resim resimDesign" onmouseover="gosterResim(1)">
                                                 </div>
                                                 <div id="ana-resim " class="resim " onmouseover="gosterResim(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim(2)"></div>
@@ -2503,8 +1500,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235">
-                                                <div id="ana-resim2" class="resim resimDesign"
-                                                    onmouseover="gosterResim2(1)">
+                                                <div id="ana-resim2" class="resim resimDesign" onmouseover="gosterResim2(1)">
                                                 </div>
                                                 <div id="ana-resim2" class="resim " onmouseover="gosterResim2(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim2(2)"></div>
@@ -2528,8 +1524,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2542,8 +1537,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim3" class="resim resimDesign"
-                                                    onmouseover="gosterResim3(1)">
+                                                <div id="ana-resim3" class="resim resimDesign" onmouseover="gosterResim3(1)">
                                                 </div>
                                                 <div id="ana-resim3 " class="resim " onmouseover="gosterResim3(1)">
                                                 </div>
@@ -2568,8 +1562,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2582,8 +1575,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim4" class="resim resimDesign"
-                                                    onmouseover="gosterResim4(1)">
+                                                <div id="ana-resim4" class="resim resimDesign" onmouseover="gosterResim4(1)">
                                                 </div>
                                                 <div id="ana-resim4" class="resim " onmouseover="gosterResim4(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim4(2)"></div>
@@ -2607,8 +1599,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2635,8 +1626,7 @@
                                             adipiscing enigm
                                         </p>
                                         <div class="d-flex justify-content-start">
-                                            <button
-                                                class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">View
+                                            <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">View
                                                 More</button>
                                         </div>
                                     </div>
@@ -2647,8 +1637,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim" class="resim resimDesign"
-                                                    onmouseover="gosterResim(1)">
+                                                <div id="ana-resim" class="resim resimDesign" onmouseover="gosterResim(1)">
                                                 </div>
                                                 <div id="ana-resim " class="resim " onmouseover="gosterResim(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim(2)"></div>
@@ -2681,8 +1670,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235">
-                                                <div id="ana-resim2" class="resim resimDesign"
-                                                    onmouseover="gosterResim2(1)">
+                                                <div id="ana-resim2" class="resim resimDesign" onmouseover="gosterResim2(1)">
                                                 </div>
                                                 <div id="ana-resim2" class="resim " onmouseover="gosterResim2(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim2(2)"></div>
@@ -2706,8 +1694,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2720,8 +1707,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim3" class="resim resimDesign"
-                                                    onmouseover="gosterResim3(1)">
+                                                <div id="ana-resim3" class="resim resimDesign" onmouseover="gosterResim3(1)">
                                                 </div>
                                                 <div id="ana-resim3 " class="resim " onmouseover="gosterResim3(1)">
                                                 </div>
@@ -2746,8 +1732,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2760,8 +1745,7 @@
                                     <div class="item">
                                         <div class="mx-2 bgf7f7f7">
                                             <div id="resim-container" class="productImg h235 ">
-                                                <div id="ana-resim4" class="resim resimDesign"
-                                                    onmouseover="gosterResim4(1)">
+                                                <div id="ana-resim4" class="resim resimDesign" onmouseover="gosterResim4(1)">
                                                 </div>
                                                 <div id="ana-resim4" class="resim " onmouseover="gosterResim4(1)"></div>
                                                 <div class="resim" onmouseover="gosterResim4(2)"></div>
@@ -2786,8 +1770,7 @@
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
                                                     <div class="d-flex  align-items-center productCard">
-                                                        <img class="w-auto w-25 pe-2 border-end "
-                                                            src="../../assets/images/Icon - Cart.png" alt="icon cart">
+                                                        <img class="w-auto w-25 pe-2 border-end " src="../../assets/images/Icon - Cart.png" alt="icon cart">
                                                         <p class="fs10 ps-2 lh12">Add to <br>
                                                             Cart</p>
                                                     </div>
@@ -2894,8 +1877,7 @@
                                                     5 Ways Music Can Boost Your
                                                     Productivity and Work Performance
                                                 </p>
-                                                <button
-                                                    class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
+                                                <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
                                                     Story</button>
                                             </div>
                                         </div>
@@ -2909,8 +1891,7 @@
                                                     5 Ways Music Can Boost Your
                                                     Productivity and Work Performance
                                                 </p>
-                                                <button
-                                                    class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
+                                                <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
                                                     Story</button>
                                             </div>
                                         </div>
@@ -2924,8 +1905,7 @@
                                                     5 Ways Music Can Boost Your
                                                     Productivity and Work Performance
                                                 </p>
-                                                <button
-                                                    class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
+                                                <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
                                                     Story</button>
                                             </div>
                                         </div>
@@ -2939,8 +1919,7 @@
                                                     5 Ways Music Can Boost Your
                                                     Productivity and Work Performance
                                                 </p>
-                                                <button
-                                                    class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
+                                                <button class="productButon rounded-1 border-0 fs12px fw-bold py-2 px-4 mb-2 mt-3">Read
                                                     Story</button>
                                             </div>
                                         </div>
@@ -2954,257 +1933,7 @@
         </div>
     </main>
     <footer>
-        <div class="footerBg">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="p-5">
-                        <div class="row nav nav-tabs">
-                            <div class=" nav-tabs  col-12 col-sm-6 col-xl-3 bg-transprant headerLinkUnderColor">
-                                <a href="#About" data-toggle="tab" data-bs-toggle="tab"
-                                    class="FooterHead fs-6 my-3 nav-link active bg-transprant mp-s">About Zorro</a>
-                                <div class="footerBody fs12">
-                                    <a href="#">About Us</a>
-                                    <a href="#">Careers</a>
-                                    <a href="#">Press Release</a>
-                                    <a href="#">Blog</a>
-                                    <a href="#">Sitemap</a>
-                                    <a href="#">Value</a>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-3 headerLinkUnderColor nav-item">
-                                <a href="#Shopguide" data-toggle="tab" data-bs-toggle="tab"
-                                    class="FooterHead fs-6 my-3 nav-link bg-transprant mp-s">Shopguide</a>
-                                <div class="footerBody fs12">
-                                    <a href="#">Shopguide</a>
-                                    <a href="#">Privacy Policy</a>
-                                    <a href="#">Return</a>
-                                    <a href="#">Security</a>
-                                    <a href="#">Report Abuse</a>
-                                    <a href="#">Terms of Conditions</a>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-3 headerLinkUnderColor">
-                                <a href="#Need" data-toggle="tab" data-bs-toggle="tab"
-                                    class="FooterHead fs-6 my-3 nav-link bg-transprant mp-s">Need Help?</a>
-                                <div class="footerBody fs12">
-                                    <a href="#">Customer Service</a>
-                                    <a href="#">FAQ</a>
-                                    <a href="#">Contact Us</a>
-                                    <a href="#">Shipping</a>
-                                    <a href="#">Payment</a>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-3 headerLinkUnderColor nav-item ">
-                                <a href="#Contact" data-toggle="tab" data-bs-toggle="tab"
-                                    class="FooterHead fs-6 my-3 nav-link bg-transprant mp-s">Contact Details</a>
-                                <div class="footerBody fs12">
-                                    <a href="#"><img src="../../assets/images/footerContactDtail/Icon Phone.png"
-                                            alt="icon phone">
-                                        &nbsp 1 - 800 - 123 - 456 - 789</a>
-                                    <a href="#"><img src="../../assets/images/footerContactDtail/Icon Email.png"
-                                            alt="icon email">
-                                        &nbsp contact@zorro.com</a>
-                                    <a href="#"><img src="../../assets/images/footerContactDtail/Icon Location.png"
-                                            alt="icon location"> &nbsp 21, Street code, Area Name <br>&nbsp &nbsp &nbsp
-                                        &nbsp Landmark, Country 42124. </a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <h2 class="FooterHead fs-6 my-3">Payment</h2>
-                                <div class="d-flex flex-wrap footerPayment">
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerPayment/Card Icon.png"
-                                                alt="payment card">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerPayment/Card Icon2.png"
-                                                alt="payment card">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerPayment/Card Icon3.png"
-                                                alt="payment card">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerPayment/Card Icon4.png"
-                                                alt="payment card">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerPayment/Card Icon5.png"
-                                                alt="payment card">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <h2 class="FooterHead fs-6 my-3">Social Network</h2>
-                                <div class="d-flex flex-wrap footerPayment">
-                                    <div class="">
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Facebook.png"
-                                                alt="social media icon Facebook">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Twitter.png"
-                                                alt="social media icon Twitter">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Google.png"
-                                                alt="social media icon Google">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Instagram.png"
-                                                alt="social media icon Instagram">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon LinkedIn.png"
-                                                alt="social media icon LinkedIn">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Youtube.png"
-                                                alt="social media icon Youtube">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Behance.png"
-                                                alt="social media icon Behance">
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#">
-                                            <img src="../../assets/images/footerSocialNetwork/Icon Dribble.png"
-                                                alt="social media icon Dribble">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                            <article id="About" class="collapse tab-pane active">
-                                <h2 class="FooterHead fs-6 my-3">About Zorro</h2>
-                                <p class="fs12px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ante ante, sagittis
-                                    sed diam vitae, semper iaculis mi. Ut placerat, ipsum eu aliquam molestie, elit
-                                    mauris gravida ante, ut faucibus dolor velit sed nunc. Quisque vitae mi commodo,
-                                    sodales justo sit amet, pulvinar dolor. Vestibulum suscipit euismod blandit. Aenean
-                                    in urna imperdiet, feugiat diam ac, fringilla lorem. Nulla non est facilisis, mattis
-                                    velit a, varius metus. Pellentesque sit amet rhoncus nisi. In consequat dolor nec
-                                    urna aliquam eleifend. Ut ornare sagittis accumsan. Morbi eu venenatis velit. Donec
-                                    sed sapien ut lectus venenatis imperdiet. Fusce ultricies enim quis arcu hendrerit,
-                                    in tristique nisi interdum. Vivamus tempor nisl orci, sed tristique tellus vehicula
-                                    quis. Nunc lacinia nisi mi, eu posuere est maximus non.
-                                    <br><br>
-                                    Phasellus commodo auctor velit at ullamcorper. Nullam vulputate purus tortor, ut
-                                    ornare purus gravida ut. Ut arcu massa, lacinia eget lacus nec, pharetra commodo
-                                    arcu. Praesent id nunc euismod, luctus mauris sed, tincidunt est. In ultricies
-                                    fringilla congue. Pellentesque dui risus, suscipit at dictum sed, dapibus vel sem.
-                                    Sed rutrum sollicitudin orci ut porttitor. Fusce et elit eu nisl dignissim tempor eu
-                                    id lacus. Nullam non lobortis odio. Proin placerat tempus dolor. In imperdiet
-                                    volutpat augue et condimentum. Duis sed tincidunt turpis. Aenean dui purus, accumsan
-                                    vitae eleifend quis, rhoncus euismod lacus. Donec malesuada, sapien vel dignissim
-                                    ullamcorper, nisi magna bibendum metus, et lobortis dui enim vitae augue.
-                                    Suspendisse potenti. Nulla volutpat vel erat ut pellentesque.
-                                    <br><br>
-                                    Donec at dui est. Donec luctus libero at ipsum luctus, sed cursus libero maximus.
-                                    Pellentesque dui sem, imperdiet at nunc non, pretium ornare neque. Pellentesque
-                                    consectetur eget risus id suscipit. Duis a dolor et nulla tincidunt lobortis.
-                                    Maecenas ultrices accumsan sapien, non luctus orci bibendum sed. Nullam commodo urna
-                                    et purus molestie, sed tempus arcu dignissim. Praesent ut mauris eu enim eleifend
-                                    condimentum sed in enim. Nam aliquet posuere augue quis tristique. Vivamus elementum
-                                    dui id sem cursus, ac venenatis eros pellentesque. Quisque aliquet gravida
-                                    consequat. Praesent a libero rutrum massa sagittis faucibus. Quisque gravida
-                                    porttitor feugiat. Nunc ac elementum ligula. Etiam quis mollis eros, eget congue
-                                    elit. Cras ac massa aliquet, consectetur odio nec, aliquet risus. Nunc fermentum
-                                    sodales nunc et cursus. Cras porttitor suscipit mi, viverra ultricies augue
-                                    sollicitudin quis. Sed erat lectus, sagittis vitae iaculis at, viverra ac est.
-                                    <br><br>
-                                    Duis sit amet sapien in justo egestas dapibus. Nam tellus sapien, gravida a
-                                    porttitor non, suscipit quis nulla. Mauris in pulvinar neque, nec tempor mauris.
-                                    Maecenas lacinia tortor vitae turpis lacinia finibus. Vivamus nec ultricies orci.
-                                    Praesent non diam tincidunt, congue orci sit amet, rhoncus urna. Maecenas efficitur
-                                    tellus id suscipit laoreet. Vivamus id pulvinar odio, in dignissim felis. Ut
-                                    ullamcorper mollis nisi, rutrum cursus enim pretium vitae. Vestibulum euismod
-                                    elementum ligula a faucibus. Sed fermentum sollicitudin eros sit amet facilisis.
-                                    Donec eu sapien ex. Maecenas molestie facilisis ipsum vitae tempor. Quisque
-                                    facilisis lobortis mi, ultricies ultricies est efficitur
-                                </p>
-                            </article>
-                            <article id="Shopguide" class="collapse2 tab-pane">
-                                <h2 class="FooterHead fs-6 my-3">Shopguide</h2>
-                                <p class="fs12px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ante ante, sagittis
-                                    sed diam vitae, semper iaculis mi. Ut placerat, ipsum eu aliquam molestie, elit
-                                    mauris gravida ante, ut faucibus dolor velit sed nunc. Quisque vitae mi commodo,
-                                    sodales justo sit amet, pulvinar dolor. Vestibulum suscipit euismod blandit. Aenean
-                                    in urna imperdiet, feugiat diam ac, fringilla lorem. Nulla non est facilisis, mattis
-                                    velit a, varius metus. Pellentesque sit amet rhoncus nisi. In consequat dolor nec
-                                    urna aliquam eleifend. Ut ornare sagittis accumsan. Morbi eu venenatis velit. Donec
-                                    sed sapien ut lectus venenatis imperdiet. Fusce ultricies enim quis arcu hendrerit,
-                                    in tristique nisi interdum. Vivamus tempor nisl orci, sed tristique tellus vehicula
-                                    quis. Nunc lacinia nisi mi, eu posuere est maximus non.
-                                </p>
-                            </article>
-                            <article id="Need" class="collapse3 tab-pane">
-                                <h2 class="FooterHead fs-6 my-3">Need Help ?</h2>
-                                <p class="fs12px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ante ante, sagittis
-                                    sed diam vitae, semper iaculis mi. Ut placerat, ipsum eu aliquam molestie, elit
-                                    mauris gravida ante, ut faucibus dolor velit sed nunc. Quisque vitae mi commodo,
-                                    sodales justo sit amet, pulvinar dolor. Vestibulum suscipit euismod blandit. Aenean
-                                    in urna imperdiet, feugiat diam ac, fringilla lorem. Nulla non est facilisis, mattis
-                                    velit a, varius metus. Pellentesque sit amet rhoncus nisi. In consequat dolor nec
-                                    urna aliquam eleifend. Ut ornare sagittis accumsan. Morbi eu venenatis velit. Donec
-                                    sed sapien ut lectus venenatis imperdiet. Fusce ultricies enim quis arcu hendrerit,
-                                    in tristique nisi interdum. Vivamus tempor nisl orci, sed tristique tellus vehicula
-                                    quis. Nunc lacinia nisi mi, eu posuere est maximus non.
-                                </p>
-                            </article>
-                            <div id="Contact" class="collapse4 tab-pane">
-                                <h2 class="FooterHead fs-6 my-3">Contact Details</h2>
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2909.3135246994198!2d-107.25681592342866!3d43.18193188278286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDEwJzU0LjkiTiAxMDfCsDE1JzE1LjMiVw!5e0!3m2!1str!2str!4v1695295846326!5m2!1str!2str"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="container">
-                <p class=" p-4 ps-5 fs12px">© 2021 Zorro. All Rights Reserved. Ecommerce Psd Template Design by Webduck
-                </p>
-            </div>
-        </div>
-
+        <?php include('../layout/footer.html'); ?>
     </footer>
 
 
@@ -3214,9 +1943,7 @@
     <script>
         AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../../assets/js/jquary3.7.0.js"></script>
     <script src="../../assets/owl-carousel/owl.carousel.min.js"></script>
     <script src="../../assets/js/style.js"></script>
