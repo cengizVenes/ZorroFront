@@ -5,7 +5,7 @@
 <img src="assets/images/homePage.png">
 
 ## What is this site?
-This CMS is a simple E-commerce site.
+This is a simple E-commerce site.
 
 ## Who is it for?
 * A simple E-commerce site that will do the trick if you are a front-end developer.

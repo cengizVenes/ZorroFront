@@ -661,11 +661,13 @@ function productImgHover() {
     var x = e.clientX - productButton1.getBoundingClientRect().left;
 
     currentIndex1 = Math.floor((x / width) * images1.length);
-    currentIndex1 = Math.min(currentIndex1, images1.length - 1);
+    currentIndex1 = Math.min(currentIndex1, images1.length);
 
-    productImage1.src = images1[currentIndex1];
+    if(currentIndex1>= 0)
+    {
+      productImage1.src = images1[currentIndex1]; 
+    }
   });
-
   // İkinci buton için
   var productButton2 = document.getElementById("productButton2");
   var productImage2 = document.getElementById("productImage2");
@@ -682,8 +684,11 @@ function productImgHover() {
 
     currentIndex2 = Math.floor((x / width) * images2.length);
     currentIndex2 = Math.min(currentIndex2, images2.length - 1);
-
     productImage2.src = images2[currentIndex2];
+    if(currentIndex2>= 0)
+    {
+      productImage2.src = images1[currentIndex2]; 
+    }
   });
 }
 function UpdatemoreLess() {

@@ -146,13 +146,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -186,13 +186,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -223,13 +223,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -260,13 +260,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -297,13 +297,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -334,13 +334,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -407,13 +407,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -444,13 +444,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -481,13 +481,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -518,13 +518,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -555,13 +555,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -592,13 +592,13 @@
                                             <p class="liteGrey">Modern Plastic Armchair
                                                 Rocker
                                             </p>
-                                            <div class="rating d-flex" id="product1">
-                                                <div class="star" data-rating="1"></div>
-                                                <div class="star" data-rating="2"></div>
-                                                <div class="star" data-rating="3"></div>
-                                                <div class="star" data-rating="4"></div>
-                                                <div class="star" data-rating="5"></div>
-                                            </div>
+                                            <label class="stars" for="customer1">
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bgffba00"></div>
+                                                <div class="bge5e5e5"></div>
+                                                <div class="bge5e5e5"></div>
+                                            </label>
                                             <div class="d-flex justify-content-between">
                                                 <p class="liteGrey">
                                                     <sup class="mt-2">$</sup>199 &nbsp;
@@ -707,8 +707,237 @@
                                             </div>
                                             <div class="col-4 col-lg-2 p-0">
                                                 <div class="p-1 p-sm-3">
+                                                    <a class="text-decoration-none" href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+                                                                    <p class="liteGrey"> Hedphone </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none" href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Hand Bag
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
                                                     <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgfeedf4 h170px catogoryShadow">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Necklace
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Belt
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Desigers shoe
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Tableware
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Chair
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Holder
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Table
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Juicer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/decore.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Home Decore
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
+                                                            <div class="p-3 h-100   ">
+                                                                <div class="d-flex justify-content-center align-items-start  h-50">
+                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/bag.png" alt="Juicer">
+                                                                </div>
+                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
+
+                                                                    <p class="liteGrey">
+                                                                        Bag
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-2 p-0">
+                                                <div class="p-1 p-sm-3">
+                                                    <a class=" text-decoration-none  " href="#">
+                                                        <div class="bgf7f7f7 h170px catogoryShadow">
                                                             <div class="p-3 h-100">
                                                                 <div class="d-flex justify-content-center align-items-start  h-50">
                                                                     <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
@@ -940,239 +1169,7 @@
                                             <div class="col-4 col-lg-2 p-0">
                                                 <div class="p-1 p-sm-3">
                                                     <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgfeedf4 h170px catogoryShadow">
-                                                            <div class="p-3 h-100">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Hedphone
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
                                                         <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Hand Bag
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Necklace
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Belt
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Desigers shoe
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Tableware
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Chair
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Holder
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Table
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="row">
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/Juicer.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Juicer
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/decore.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Home Decore
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgf7f7f7 h170px catogoryShadow">
-                                                            <div class="p-3 h-100   ">
-                                                                <div class="d-flex justify-content-center align-items-start  h-50">
-                                                                    <img class="maxWidth100 w-auto h-100" src="../../assets/images/bag.png" alt="Juicer">
-                                                                </div>
-                                                                <div class="d-flex justify-content-center align-items-end w-100 h-50">
-
-                                                                    <p class="liteGrey">
-                                                                        Bag
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 col-lg-2 p-0">
-                                                <div class="p-1 p-sm-3">
-                                                    <a class=" text-decoration-none  " href="#">
-                                                        <div class="bgfeedf4 h170px catogoryShadow">
                                                             <div class="p-3 h-100">
                                                                 <div class="d-flex justify-content-center align-items-start  h-50">
                                                                     <img class="maxWidth100 w-auto h-100" src="../../assets/images/Hedphone.png" alt="Juicer">
@@ -1478,13 +1475,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1511,13 +1508,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1549,13 +1546,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1586,13 +1583,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1648,13 +1645,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1681,13 +1678,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1719,13 +1716,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
@@ -1756,13 +1753,13 @@
                                                 <p class="liteGrey">Modern Plastic Armchair
                                                     Rocker
                                                 </p>
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
 
                                                 <div class="d-flex justify-content-between">
                                                     <p class="liteGrey">

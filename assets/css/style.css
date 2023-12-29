@@ -721,8 +721,8 @@ sup {
     opacity: 1;
     visibility: visible;
 }
-#f3b042
-.navbar .dropdown-right:hover .menu-right {
+
+#f3b042 .navbar .dropdown-right:hover .menu-right {
     left: 100%;
     opacity: 1;
     visibility: visible;
@@ -1380,19 +1380,13 @@ sup {
     max-width: 100%;
 }
 
-.catogoryShadow {
-    transition: .3s;
-
-}
 
 .bottom-20 {
     bottom: 20%;
 }
 
 .catogoryShadow:hover {
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #feedf4 !important;
 }
 
 .Carousel2_3 .owl-dots {
@@ -1601,7 +1595,7 @@ input[type="range"] {
     pointer-events: none;
 }
 
-.slider-track{
+.slider-track {
     width: 100%;
     height: 5px;
     position: absolute;
@@ -1610,9 +1604,9 @@ input[type="range"] {
     bottom: 0;
     border-radius: 5px;
 }
-.slider-track2 
-{
-      width: 100%;
+
+.slider-track2 {
+    width: 100%;
     height: 5px;
     position: absolute;
     margin: auto;
@@ -1620,6 +1614,7 @@ input[type="range"] {
     bottom: 0;
     border-radius: 5px;
 }
+
 input[type="range"]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     height: 5px;
@@ -1671,7 +1666,8 @@ input[type="range"]:active::-webkit-slider-thumb {
     border: 3px solid #fa4f91;
 }
 
-.values,.values2 {
+.values,
+.values2 {
     display: flex;
     justify-content: flex-start;
     margin-top: 35px;
@@ -1745,8 +1741,8 @@ input[type="number"]::-webkit-outer-spin-button {
     border: 1px solid #ebebeb;
     border-radius: 2px;
 }
-.disabledInput:focus-visible
-{
+
+.disabledInput:focus-visible {
     outline: none;
 }
 
@@ -1981,13 +1977,15 @@ input[type="search"]::-webkit-search-results-decoration {
 
 }
 
-.sizeFilter > [type="checkbox"]:checked+button,.BlogListButton > [type="checkbox"]:checked+button {
+.sizeFilter>[type="checkbox"]:checked+button,
+.BlogListButton>[type="checkbox"]:checked+button {
     background-color: #19c144;
     border: 1px solid #19c144;
     color: #FFF;
 }
 
-.sizeFilter > [type="checkbox"]:not(:checked)+button,.BlogListButton > [type="checkbox"]:not(:checked)+button {
+.sizeFilter>[type="checkbox"]:not(:checked)+button,
+.BlogListButton>[type="checkbox"]:not(:checked)+button {
     background-color: #fff;
     border: 1px dashed #d7d8da;
     color: #d7d8da;
@@ -3028,7 +3026,17 @@ td {
         padding-right: 2px !important;
     }
 }
-.nowrap
-{
+
+.nowrap {
     text-wrap: nowrap;
+}
+
+.mr4 {
+    margin-top: 1.5rem;
+}
+
+@media(max-width:767px) {
+    .mr4 {
+        margin-top: 0.8rem;
+    }
 }

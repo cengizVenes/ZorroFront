@@ -960,7 +960,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-1 d-xl-none d-block brEndGray">
+                                <div class="col-2 col-sm-1 order-last order-sm-0   d-xl-none d-block brEndGray">
                                     <div class="d-flex p-2 p-sm-0 justify-content-center align-items-center p-0 m-0 h-100">
                                         <button class="d-flex  justify-content-center align-items-center p-0 m-0 h-100 calcWidth bg-transparent border-0" id="coMenuButton2">
                                             <img class="disNone" id="btnicon" src="../../assets/images/clear.png" alt="clearicon">
@@ -1033,7 +1033,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4 ">
+                                                    <p class="color96979b text-nowrap w-100 mr4 ">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1095,7 +1095,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1157,7 +1157,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1219,7 +1219,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1281,7 +1281,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1343,7 +1343,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1405,7 +1405,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1467,7 +1467,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1529,7 +1529,7 @@
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100 mt-4">
+                                                    <p class="color96979b text-nowrap w-100 mr4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
