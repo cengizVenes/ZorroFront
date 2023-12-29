@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>ZORRO-HOMEPAGE-2</title>
+    <title>ZORRO-SHOPPAGE-1</title>
     <meta name="description" content="Home page 2">
     <meta name="author" content="stagedijital">
     <meta charset="UTF-8">
@@ -15,8 +15,445 @@
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
 </head>
 
-<body>
+<body class="position-relative">
+    <div class="position-absolute bg-black-50 w-100 h-100  disNone  top-0 z-15" id="coMenu">
+        <div id="coMenuBoady" class=" h-100 maxWidth500px">
+            <div class="bg-white shadow h-100 p-75 pt-5 ">
+                <div class="d-flex justify-content-end ">
+                    <button id="coMenuButton1" class="bg-transparent border-0"> <img src="../../assets/images/X.png" alt="close icon"></button>
+                </div>
+                <div class="productFilter p-3  border-bottom">
+                    <div>
+                        <h3 class="cardHeaderlink fs14px">Categories</h3>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Topwear
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingTwos">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwos" aria-expanded="false" aria-controls="flush-collapseTwos">
+                                    Shoes
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwos" class="accordion-collapse collapse" aria-labelledby="flush-headingTwos" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Beauty & Grooming
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingFor">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
+                                    Fashion Jewellery
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Personal Care
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                    Accessories
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingSeven">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                    Clothing
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingEight">
+                                <button class="accordion-button collapsed fs12px p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                    Summer Collection
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                <div class="superOpportunityHeader2 br2vw ">
+                                    <div class="aDblock">
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">Sports
+                                            Shoes</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                        <a class="text-decoration-none fs12px liteGrey ps-2" href="#">sports</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="p-4 border-bottom">
+                    <div class="wrapper">
+                        <div class="d-flex justify-content-between mb-2">
+                            <h3 class="fs-6">PRICE</h3>
+                            <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
+                        </div>
+                        <div class=" position-relative doubleRange2">
+                            <div class="slider-track2"></div>
+                            <input type="range" min="0" max="500" value="0" step="10" id="slider-3" oninput="slide1()">
+                            <input type="range" min="0" max="500" value="500" step="10" id="slider-4" oninput="slide2()">
+                        </div>
+                        <div class="values2">
+                            <p>
+                                $
+                                <span id="range3">
+                                    0
+                                </span>
+                                <span> &dash; </span>
+                                $
+                                <span id="range4">
+                                    100
+                                </span>
+                            </p>
+                        </div>
+                        <div class=" d-flex w-100 justify-content-around mt-3">
+                            <div class="w-75">
+                                <input class="w35 filterNumber disabledInput" type="text" value="&#36;0" disabled>
+                                <span class="px-2">to</span>
+                                <input class="w35 filterNumber disabledInput" type="text" value="&#36;500" disabled>
+                            </div>
+                            <button class="productButon border-0 rounded-1 ">GO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 border-bottom">
+                    <div class="d-flex justify-content-between mb-2">
+                        <h3 class="fs-6">BRANDS</h3>
+                        <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
+                    </div>
+                    <div class="position-relative d-flex align-items-center">
+                        <input class=" p-1 ps-4 filterSearch  disabledInput rounded-1 fs14px " placeholder="Search by Brand" type="search">
+                        <i class="fa-solid fa-magnifying-glass position-absolute ms-2 fa-sm "></i>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <input id="Newbrands1" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands1">Casali</label>
+                            </div>
+                            <p>12</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <input id="Newbrands2" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands2">Casali</label>
+                            </div>
+                            <p>12</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <input id="Newbrands3" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands3">Casali</label>
+                            </div>
+                            <p>12</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <input id="Newbrands4" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands4">Casali</label>
+                            </div>
+                            <p>12</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <input id="Newbrands5" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands5">Casali</label>
+                            </div>
+                            <p>12</p>
+                        </div>
+                        <span id="dots2"></span>
+                        <div id="more2">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <input id="Newbrands6" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands6">Casali</label>
+                                </div>
+                                <p>12</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <input id="Newbrands7" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands7">Casali</label>
+                                </div>
+                                <p>12</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <input id="Newbrands8" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands8">Casali</label>
+                                </div>
+                                <p>12</p>
+                            </div>
+                        </div>
+                        <button class="border-0 bg-transparent color6e5ec0" onclick="moreLess2()" id="btnMore2">Brands
+                            more</button>
+                    </div>
+                </div>
+                <div class="p-4 border-bottom">
+                    <h3 class="fs-6">DISCOUNT</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount1" class="ceked" type="checkbox">
+                            <label for="Newdiscount1">10% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount2" class="ceked" type="checkbox">
+                            <label for="Newdiscount2">25% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount3" class="ceked" type="checkbox">
+                            <label for="Newdiscount3">35% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount4" class="ceked" type="checkbox">
+                            <label for="Newdiscount4">50% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount5" class="ceked" type="checkbox">
+                            <label for="Newdiscount5">60% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="Newdiscount6" class="ceked" type="checkbox">
+                            <label for="Newdiscount6">75% Off or more</label>
+                        </div>
+                        <p>12</p>
+                    </div>
+                </div>
+                <div class="p-4 border-bottom">
+                    <h3 class="fs-6">COLORS</h3>
+                    <div class="d-flex flex-wrap">
+                        <div class="colors">
+                            <input id="liteBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteBlue2')" class="p-2 bg4370e1 rounded-1 border-0"></button>
+                            <input id="darkBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkBlue2')" class="p-2 bg4434ee1 rounded-1 border-0"></button>
+                            <input id="darkPurple2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkPurple2')" class="p-2 bg8243e1 rounded-1 border-0"></button>
+                            <input id="litePurple2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('litePurple2')" class="p-2 bgb643e1 rounded-1 border-0"></button>
+                            <input id="litePink2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('litePink2')" class="p-2 bge143b3 rounded-1 border-0"></button>
+                            <input id="red2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('red2')" class="p-2 bge83758 rounded-1 border-0"></button>
+                            <input id="darkYellow2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkYellow2')" class="p-2 bge89b37 rounded-1 border-0"></button>
+                            <input id="orange2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('orange2')" class="p-2 bge87137 rounded-1 border-0"></button>
+                            <input id="liteYellow2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteYellow2')" class="p-2 bge8e237 rounded-1 border-0"></button>
+                            <input id="liteGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteGreen2')" class="p-2 bgb0e837 rounded-1 border-0"></button>
+                            <input id="darkGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkGreen2')" class="p-2 bg61e837 rounded-1 border-0"></button>
+                            <input id="moreliteGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('moreliteGreen2')" class="p-2 bg37e8a3 rounded-1 border-0"></button>
+                            <input id="moreLiteBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('moreLiteBlue2')" class="p-2 bg37e6e8 rounded-1 border-0"></button>
+                            <input id="grey2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('grey2')" class="p-2 bg524d4e rounded-1 border-0"></button>
+                            <input id="liteGrey2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteGrey2')" class="p-2 bge5e5e5 rounded-1 border-0"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 border-bottom">
+                    <div class="d-flex justify-content-between mb-2">
+                        <h3 class="fs-6">SIZE</h3>
+                        <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
+                    </div>
+                    <div class="d-flex flex-wrap sizeFilter">
+                        <input id="s" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('s')" class="m-1 colord7d8da">S</button>
+                        <input id="m" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('m')" class="m-1 colord7d8da">M</button>
+                        <input id="l" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('l')" class="m-1 colord7d8da">L</button>
+                        <input id="xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('xl')" class="m-1 colord7d8da">XL</button>
+                        <input id="xxl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('xxl')" class="m-1 colord7d8da">XXL</button>
+                        <input id="3xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('3xl')" class="m-1 colord7d8da">3XL</button>
+                        <input id="4xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                        <button onclick="isaretleCheckbox('4xl')" class="m-1 colord7d8da">4XL</button>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <h3 class="fs-6">CUSTOMER RATING</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="neWcustomer1" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer1">
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bge5e5e5"></div>
+                            </label>
+                            <p>& Up</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="neWcustomer2" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer2">
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                            </label>
+                            <p>& Up</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="neWcustomer3" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer3">
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                            </label>
+                            <p>& Up</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input id="neWcustomer4" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer4">
+                                <div class="bgffba00"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                            </label>
+                            <p>& Up</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
         <?php include('../layout/header.html'); ?>
     </header>
@@ -40,7 +477,7 @@
         <div class="container-fluid mt-162px">
             <div class="container-sm">
                 <div class="row m-0 g-5">
-                    <div class="col-12 col-sm-4 col-xl-3">
+                    <div class="col-12 col-xl-3 d-none d-xl-block">
                         <div class="bg-white shadow rounded-1">
                             <div class="p-3 border-bottom">
                                 <div class="m-1">
@@ -217,7 +654,7 @@
                                         <h3 class="fs-6">PRICE</h3>
                                         <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
                                     </div>
-                                    <div class=" position-relative">
+                                    <div class=" position-relative doubleRange1">
                                         <div class="slider-track"></div>
                                         <input type="range" min="0" max="500" value="0" step="10" id="slider-1" oninput="slideOne()">
                                         <input type="range" min="0" max="500" value="500" step="10" id="slider-2" oninput="slideTwo()">
@@ -405,20 +842,20 @@
                                     <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
                                 </div>
                                 <div class="d-flex flex-wrap sizeFilter">
-                                    <input id="s" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('s')" class="m-1 colord7d8da">S</button>
-                                    <input id="m" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('m')" class="m-1 colord7d8da">M</button>
-                                    <input id="l" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('l')" class="m-1 colord7d8da">L</button>
-                                    <input id="xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('xl')" class="m-1 colord7d8da">XL</button>
-                                    <input id="xxl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('xxl')" class="m-1 colord7d8da">XXL</button>
-                                    <input id="3xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('3xl')" class="m-1 colord7d8da">3XL</button>
-                                    <input id="4xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('4xl')" class="m-1 colord7d8da">4XL</button>
+                                    <input id="s2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('s2')" class="m-1 colord7d8da">S</button>
+                                    <input id="m2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('m2')" class="m-1 colord7d8da">M</button>
+                                    <input id="l2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('l2')" class="m-1 colord7d8da">L</button>
+                                    <input id="xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('xl2')" class="m-1 colord7d8da">XL</button>
+                                    <input id="xxl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('xxl2')" class="m-1 colord7d8da">XXL</button>
+                                    <input id="3xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('3xl2')" class="m-1 colord7d8da">3XL</button>
+                                    <input id="4xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('4xl2')" class="m-1 colord7d8da">4XL</button>
                                 </div>
                             </div>
                             <div class="p-4">
@@ -478,26 +915,29 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="liteBlueBg shadow rounded-1 p-5 mt-5 hcalc">
-                            <div class="bg-white p-2 text-center cutCricle fw-600">
+                        <div class="liteBlueBg shadow rounded-1 pt-5  mt-5 hcalc">
+                            <div class="bg-white p-2 text-center w180 cutLeftCricle fw-600">
                                 30% extra off
                             </div>
-                            <h2 class="fontPlayFair fs52 text-center">Spring
-                                Fling</h2>
-                            <p class="fw-600 fs18px">
-                                Discover your style
-                            </p>
-                            <div class="w-100 d-flex justify-content-center">
-                                <button class="yellowBg fw-bolder fs12px rounded-1 border-0 p-4 py-2 rounded-pill my-2 shadow-lg fw-600">
-                                    EXPLORE
-                                </button>
+                            <div class="w180 ps-4 pt-5">
+
+                                <h2 class="fontPlayFair fs52 text-start">SPRING
+                                    FLING</h2>
+                                <p class="fw-600 fs18px">
+                                    DISCOVER YOUR STYLE
+                                </p>
+                                <div class="w-100 d-flex justify-content-start">
+                                    <button class="yellowBg fw-bolder fs12px rounded-1 border-0 p-4 py-2 rounded-pill my-2 shadow-lg fw-600">
+                                        EXPLORE
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-8 col-xl-9">
+                    <div class="col-12 col-xl-9">
                         <div class=" bg-white shadow rounded-1">
                             <div class="row m-0 brBBottomGray justify-content-end ">
-                                <div class="col-8 col-sm-10 brEndGray">
+                                <div class="col-8  col-sm-9 col-xl-10 brEndGray">
                                     <div class="productHeader p-0 p-sm-3 ">
                                         <div class="d-block d-sm-flex justify-content-between">
                                             <div>
@@ -520,14 +960,22 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-1 d-xl-none d-block brEndGray">
+                                    <div class="d-flex p-2 p-sm-0 justify-content-center align-items-center p-0 m-0 h-100">
+                                        <button class="d-flex  justify-content-center align-items-center p-0 m-0 h-100 calcWidth bg-transparent border-0" id="coMenuButton2">
+                                            <img class="disNone" id="btnicon" src="../../assets/images/clear.png" alt="clearicon">
+                                            <a class="text-decoration-none color96979b fsRes ms-1" href="#">Filter</a>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div class="col-2 col-sm-1 brEndGray">
                                     <div class="d-flex p-2 p-sm-0 justify-content-center align-items-center p-0 m-0 h-100">
-                                        <img src="../../assets/images/Grid.png" alt="">
+                                        <img src="../../assets/images/GridP.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-2 col-sm-1">
                                     <div class="d-flex p-2 p-sm-0 justify-content-center align-items-center p-0 m-0 h-100">
-                                        <img src="../../assets/images/List.png" alt="">
+                                        <img src="../../assets/images/ListP.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -550,13 +998,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -624,13 +1072,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -698,13 +1146,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -772,13 +1220,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -846,13 +1294,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -920,13 +1368,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -994,13 +1442,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1068,13 +1516,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1142,13 +1590,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1216,13 +1664,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1290,13 +1738,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1364,13 +1812,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1438,13 +1886,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1512,13 +1960,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1586,13 +2034,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1660,13 +2108,13 @@
                                                 Rocker
                                             </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="rating d-flex" id="product1">
-                                                    <div class="star" data-rating="1"></div>
-                                                    <div class="star" data-rating="2"></div>
-                                                    <div class="star" data-rating="3"></div>
-                                                    <div class="star" data-rating="4"></div>
-                                                    <div class="star" data-rating="5"></div>
-                                                </div>
+                                                <label class="stars" for="customer1">
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bgffba00"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                    <div class="bge5e5e5"></div>
+                                                </label>
                                                 <p class="liteGrey fs12px ">(216)</p>
                                             </div>
 
@@ -1769,6 +2217,7 @@
     <script src="../../assets/js/jquary3.7.0.js"></script>
     <script src="../../assets/owl-carousel/owl.carousel.min.js"></script>
     <script src="../../assets/js/doubleRange.js"></script>
+    <script src="../../assets/js/doubleRange2.js"></script>
     <script src="../../assets/js/style.js"></script>
 </body>
 <script>
@@ -1779,6 +2228,8 @@
     coppy();
     heart();
     productImgHover();
+    filterMenu();
+    moreLess2();
 </script>
 
 </html>

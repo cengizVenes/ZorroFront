@@ -73,13 +73,13 @@
                     </div>
                     <div class="col-12 col-xl-5">
                         <div class="d-flex align-items-center mt-2 mb-4 ">
-                            <div class="rating d-flex" id="product1">
-                                <div class="star" data-rating="1"></div>
-                                <div class="star" data-rating="2"></div>
-                                <div class="star" data-rating="3"></div>
-                                <div class="star" data-rating="4"></div>
-                                <div class="star" data-rating="5"></div>
-                            </div>
+                            <label class="stars mt-3 mb-4" for="customer1">
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bgffba00"></div>
+                                <div class="bge5e5e5"></div>
+                                <div class="bge5e5e5"></div>
+                            </label>
                             <div>
                                 <a class="text-decoration-none color96979b ms-3" href="#">Review <span class="colorfcabc6">(12)</span></a>
                             </div>
@@ -103,11 +103,16 @@
                                     <h3 class="fs14px liteGrey">COLORS</h3>
                                     <div class="d-flex flex-wrap">
                                         <div class="colors">
-                                            <button class="p-2 bg4434ee1 rounded-1 border-0"></button>
-                                            <button class="p-2 bg8243e1 rounded-1 border-0"></button>
-                                            <button class="p-2 bgb643e1 rounded-1 border-0"></button>
-                                            <button class="p-2 bge143b3 rounded-1 border-0"></button>
-                                            <button class="p-2 bge83758 rounded-1 border-0"></button>
+                                            <input id="darkBlue" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                                            <button onclick="isaretleCheckbox('darkBlue')" class="p-2 bg4434ee1 rounded-1 border-0"></button>
+                                            <input id="darkPurple" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                                            <button onclick="isaretleCheckbox('darkPurple')" class="p-2 bg8243e1 rounded-1 border-0"></button>
+                                            <input id="litePurple" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                                            <button onclick="isaretleCheckbox('litePurple')" class="p-2 bgb643e1 rounded-1 border-0"></button>
+                                            <input id="litePink" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                                            <button onclick="isaretleCheckbox('litePink')" class="p-2 bge143b3 rounded-1 border-0"></button>
+                                            <input id="red" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                                            <button onclick="isaretleCheckbox('red')" class="p-2 bge83758 rounded-1 border-0"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -802,6 +807,7 @@
         coppy()
         heart()
         fancybox()
+        productStar()
     </script>
 
 </html>

@@ -1935,10 +1935,6 @@
     <footer>
         <?php include('../layout/footer.html'); ?>
     </footer>
-
-
-
-
     <script src="../../assets/js/aos.js"></script>
     <script>
         AOS.init();

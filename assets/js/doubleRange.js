@@ -2,7 +2,13 @@
 window.onload = function () {
     slideOne();
     slideTwo();
+    fillColors();
   };
+
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    fillColors();
+  }); 
 
   let sliderOne = document.getElementById("slider-1");
   let sliderTwo = document.getElementById("slider-2");
@@ -17,17 +23,17 @@ window.onload = function () {
       sliderOne.value = parseInt(sliderTwo.value) - minGap;
     }
     displayValOne.textContent = sliderOne.value;
-    fillColor();
+    fillColors();
   }
   function slideTwo() {
     if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
       sliderTwo.value = parseInt(sliderOne.value) + minGap;
     }
     displayValTwo.textContent = sliderTwo.value;
-    fillColor();
+    fillColors();
   }
-  function fillColor() {
-    percent1 = (sliderOne.value / sliderMaxValue) * 100;
-    percent2 = (sliderTwo.value / sliderMaxValue) * 100;
-    sliderTrack.style.background = `linear-gradient(to right, #cacbcd ${percent1}% , #fa4f91 ${percent1}% , #fa4f91 ${percent2}%, #cacbcd ${percent2}%)`;
+  function fillColors() {
+    percent1s = (sliderOne.value / sliderMaxValue) * 100;
+    percent2s = (sliderTwo.value / sliderMaxValue) * 100;
+    sliderTrack.style.background = `linear-gradient(to right, #cacbcd ${percent1s}% , #fa4f91 ${percent1s}% , #fa4f91 ${percent2s}%, #cacbcd ${percent2s}%)`;
   }

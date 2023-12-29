@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>ZORRO-HOMEPAGE-2</title>
+    <title>ZORRO-SHOPPAGE-6</title>
     <meta name="description" content="Home page 2">
     <meta name="author" content="stagedijital">
     <meta charset="UTF-8">
@@ -952,13 +952,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1016,13 +1016,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1080,13 +1080,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1144,13 +1144,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1208,13 +1208,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1272,13 +1272,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1336,13 +1336,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1400,13 +1400,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1464,13 +1464,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1528,13 +1528,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1592,13 +1592,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1656,13 +1656,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1720,13 +1720,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1784,13 +1784,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1848,13 +1848,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1912,13 +1912,13 @@
                                                         Rocker
                                                     </a>
                                                     <div class="d-flex align-items-center my-2">
-                                                        <div class="rating d-flex" id="product1">
-                                                            <div class="star" data-rating="1"></div>
-                                                            <div class="star" data-rating="2"></div>
-                                                            <div class="star" data-rating="3"></div>
-                                                            <div class="star" data-rating="4"></div>
-                                                            <div class="star" data-rating="5"></div>
-                                                        </div>
+                                                        <label class="stars" for="customer1">
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bgffba00"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                            <div class="bge5e5e5"></div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2267,6 +2267,7 @@
         buttonOpenClose();
         checkboxclr();
         filterMenu();
+        productStar();
     </script>
 
 </html>

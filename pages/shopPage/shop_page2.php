@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>ZORRO-HOMEPAGE-2</title>
+    <title>ZORRO-SHOPPAGE-2</title>
     <meta name="description" content="Home page 2">
     <meta name="author" content="stagedijital">
     <meta charset="UTF-8">
@@ -230,64 +230,64 @@
                     <div class="mt-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <input id="brands1" class="ceked checkboxClr" type="checkbox">
-                                <label for="brands1">Casali</label>
+                                <input id="Newbrands1" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands1">Casali</label>
                             </div>
                             <p>12</p>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <input id="brands2" class="ceked checkboxClr" type="checkbox">
-                                <label for="brands2">Casali</label>
+                                <input id="Newbrands2" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands2">Casali</label>
                             </div>
                             <p>12</p>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <input id="brands3" class="ceked checkboxClr" type="checkbox">
-                                <label for="brands3">Casali</label>
+                                <input id="Newbrands3" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands3">Casali</label>
                             </div>
                             <p>12</p>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <input id="brands4" class="ceked checkboxClr" type="checkbox">
-                                <label for="brands4">Casali</label>
+                                <input id="Newbrands4" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands4">Casali</label>
                             </div>
                             <p>12</p>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center">
-                                <input id="brands5" class="ceked checkboxClr" type="checkbox">
-                                <label for="brands5">Casali</label>
+                                <input id="Newbrands5" class="ceked checkboxClr" type="checkbox">
+                                <label for="Newbrands5">Casali</label>
                             </div>
                             <p>12</p>
                         </div>
-                        <span id="dots"></span>
-                        <div id="more">
+                        <span id="dots2"></span>
+                        <div id="more2">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="d-flex align-items-center">
-                                    <input id="brands6" class="ceked checkboxClr" type="checkbox">
-                                    <label for="brands6">Casali</label>
+                                    <input id="Newbrands6" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands6">Casali</label>
                                 </div>
                                 <p>12</p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="d-flex align-items-center">
-                                    <input id="brands7" class="ceked checkboxClr" type="checkbox">
-                                    <label for="brands7">Casali</label>
+                                    <input id="Newbrands7" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands7">Casali</label>
                                 </div>
                                 <p>12</p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="d-flex align-items-center">
-                                    <input id="brands8" class="ceked checkboxClr" type="checkbox">
-                                    <label for="brands8">Casali</label>
+                                    <input id="Newbrands8" class="ceked checkboxClr" type="checkbox">
+                                    <label for="Newbrands8">Casali</label>
                                 </div>
                                 <p>12</p>
                             </div>
                         </div>
-                        <button class="border-0 bg-transparent color6e5ec0" onclick="moreLess()" id="btnMore">Brands
+                        <button class="border-0 bg-transparent color6e5ec0" onclick="moreLess2()" id="btnMore2">Brands
                             more</button>
                     </div>
                 </div>
@@ -295,43 +295,43 @@
                     <h3 class="fs-6">DISCOUNT</h3>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount1" class="ceked" type="checkbox">
-                            <label for="discount1">10% Off or more</label>
+                            <input id="Newdiscount1" class="ceked" type="checkbox">
+                            <label for="Newdiscount1">10% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount2" class="ceked" type="checkbox">
-                            <label for="discount2">25% Off or more</label>
+                            <input id="Newdiscount2" class="ceked" type="checkbox">
+                            <label for="Newdiscount2">25% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount3" class="ceked" type="checkbox">
-                            <label for="discount3">35% Off or more</label>
+                            <input id="Newdiscount3" class="ceked" type="checkbox">
+                            <label for="Newdiscount3">35% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount4" class="ceked" type="checkbox">
-                            <label for="discount4">50% Off or more</label>
+                            <input id="Newdiscount4" class="ceked" type="checkbox">
+                            <label for="Newdiscount4">50% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount5" class="ceked" type="checkbox">
-                            <label for="discount5">60% Off or more</label>
+                            <input id="Newdiscount5" class="ceked" type="checkbox">
+                            <label for="Newdiscount5">60% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="discount6" class="ceked" type="checkbox">
-                            <label for="discount6">75% Off or more</label>
+                            <input id="Newdiscount6" class="ceked" type="checkbox">
+                            <label for="Newdiscount6">75% Off or more</label>
                         </div>
                         <p>12</p>
                     </div>
@@ -340,36 +340,36 @@
                     <h3 class="fs-6">COLORS</h3>
                     <div class="d-flex flex-wrap">
                         <div class="colors">
-                            <input id="liteBlue" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('liteBlue')" class="p-2 bg4370e1 rounded-1 border-0"></button>
-                            <input id="darkBlue" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('darkBlue')" class="p-2 bg4434ee1 rounded-1 border-0"></button>
-                            <input id="darkPurple" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('darkPurple')" class="p-2 bg8243e1 rounded-1 border-0"></button>
-                            <input id="litePurple" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('litePurple')" class="p-2 bgb643e1 rounded-1 border-0"></button>
-                            <input id="litePink" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('litePink')" class="p-2 bge143b3 rounded-1 border-0"></button>
-                            <input id="red" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('red')" class="p-2 bge83758 rounded-1 border-0"></button>
-                            <input id="darkYellow" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('darkYellow')" class="p-2 bge89b37 rounded-1 border-0"></button>
-                            <input id="orange" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('orange')" class="p-2 bge87137 rounded-1 border-0"></button>
-                            <input id="liteYellow" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('liteYellow')" class="p-2 bge8e237 rounded-1 border-0"></button>
-                            <input id="liteGreen" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('liteGreen')" class="p-2 bgb0e837 rounded-1 border-0"></button>
-                            <input id="darkGreen" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('darkGreen')" class="p-2 bg61e837 rounded-1 border-0"></button>
-                            <input id="moreliteGreen" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('moreliteGreen')" class="p-2 bg37e8a3 rounded-1 border-0"></button>
-                            <input id="moreLiteBlue" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('moreLiteBlue')" class="p-2 bg37e6e8 rounded-1 border-0"></button>
-                            <input id="grey" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('grey')" class="p-2 bg524d4e rounded-1 border-0"></button>
-                            <input id="liteGrey" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
-                            <button onclick="isaretleCheckbox('liteGrey')" class="p-2 bge5e5e5 rounded-1 border-0"></button>
+                            <input id="liteBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteBlue2')" class="p-2 bg4370e1 rounded-1 border-0"></button>
+                            <input id="darkBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkBlue2')" class="p-2 bg4434ee1 rounded-1 border-0"></button>
+                            <input id="darkPurple2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkPurple2')" class="p-2 bg8243e1 rounded-1 border-0"></button>
+                            <input id="litePurple2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('litePurple2')" class="p-2 bgb643e1 rounded-1 border-0"></button>
+                            <input id="litePink2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('litePink2')" class="p-2 bge143b3 rounded-1 border-0"></button>
+                            <input id="red2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('red2')" class="p-2 bge83758 rounded-1 border-0"></button>
+                            <input id="darkYellow2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkYellow2')" class="p-2 bge89b37 rounded-1 border-0"></button>
+                            <input id="orange2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('orange2')" class="p-2 bge87137 rounded-1 border-0"></button>
+                            <input id="liteYellow2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteYellow2')" class="p-2 bge8e237 rounded-1 border-0"></button>
+                            <input id="liteGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteGreen2')" class="p-2 bgb0e837 rounded-1 border-0"></button>
+                            <input id="darkGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('darkGreen2')" class="p-2 bg61e837 rounded-1 border-0"></button>
+                            <input id="moreliteGreen2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('moreliteGreen2')" class="p-2 bg37e8a3 rounded-1 border-0"></button>
+                            <input id="moreLiteBlue2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('moreLiteBlue2')" class="p-2 bg37e6e8 rounded-1 border-0"></button>
+                            <input id="grey2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('grey2')" class="p-2 bg524d4e rounded-1 border-0"></button>
+                            <input id="liteGrey2" class="opacity-0 ceked checkboxClr  position-absolute start-0 " type="checkbox">
+                            <button onclick="isaretleCheckbox('liteGrey2')" class="p-2 bge5e5e5 rounded-1 border-0"></button>
                         </div>
                     </div>
                 </div>
@@ -399,8 +399,8 @@
                     <h3 class="fs-6">CUSTOMER RATING</h3>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="customer1" class="ceked" type="checkbox">
-                            <label class="stars" for="customer1">
+                            <input id="neWcustomer1" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer1">
                                 <div class="bgffba00"></div>
                                 <div class="bgffba00"></div>
                                 <div class="bgffba00"></div>
@@ -412,8 +412,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="customer2" class="ceked" type="checkbox">
-                            <label class="stars" for="customer2">
+                            <input id="neWcustomer2" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer2">
                                 <div class="bgffba00"></div>
                                 <div class="bgffba00"></div>
                                 <div class="bgffba00"></div>
@@ -426,8 +426,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="customer3" class="ceked" type="checkbox">
-                            <label class="stars" for="customer3">
+                            <input id="neWcustomer3" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer3">
                                 <div class="bgffba00"></div>
                                 <div class="bgffba00"></div>
                                 <div class="bge5e5e5"></div>
@@ -439,8 +439,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center">
-                            <input id="customer4" class="ceked" type="checkbox">
-                            <label class="stars" for="customer4">
+                            <input id="neWcustomer4" class="ceked" type="checkbox">
+                            <label class="stars" for="neWcustomer4">
                                 <div class="bgffba00"></div>
                                 <div class="bge5e5e5"></div>
                                 <div class="bge5e5e5"></div>
@@ -842,20 +842,20 @@
                                     <button class="clear fs14px fw-600 border-0 bg-transparent clrJs"> Clear <img src="../../assets/images/clear.png" alt="clear button"></button>
                                 </div>
                                 <div class="d-flex flex-wrap sizeFilter">
-                                    <input id="s" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('s')" class="m-1 colord7d8da">S</button>
-                                    <input id="m" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('m')" class="m-1 colord7d8da">M</button>
-                                    <input id="l" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('l')" class="m-1 colord7d8da">L</button>
-                                    <input id="xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('xl')" class="m-1 colord7d8da">XL</button>
-                                    <input id="xxl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('xxl')" class="m-1 colord7d8da">XXL</button>
-                                    <input id="3xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('3xl')" class="m-1 colord7d8da">3XL</button>
-                                    <input id="4xl" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
-                                    <button onclick="isaretleCheckbox('4xl')" class="m-1 colord7d8da">4XL</button>
+                                    <input id="s2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('s2')" class="m-1 colord7d8da">S</button>
+                                    <input id="m2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('m2')" class="m-1 colord7d8da">M</button>
+                                    <input id="l2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('l2')" class="m-1 colord7d8da">L</button>
+                                    <input id="xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('xl2')" class="m-1 colord7d8da">XL</button>
+                                    <input id="xxl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('xxl2')" class="m-1 colord7d8da">XXL</button>
+                                    <input id="3xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('3xl2')" class="m-1 colord7d8da">3XL</button>
+                                    <input id="4xl2" class="opacity-0 ceked checkboxClr  position-absolute start-0 brdashed" type="checkbox">
+                                    <button onclick="isaretleCheckbox('4xl2')" class="m-1 colord7d8da">4XL</button>
                                 </div>
                             </div>
                             <div class="p-4">
@@ -1020,20 +1020,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4 ">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1082,20 +1082,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1144,20 +1144,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1206,20 +1206,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1268,20 +1268,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1330,20 +1330,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1392,20 +1392,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1454,20 +1454,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1516,20 +1516,20 @@
                                                             Rocker
                                                         </a>
                                                         <div class="d-flex align-items-center my-2">
-                                                            <div class="rating d-flex" id="product1">
-                                                                <div class="star" data-rating="1"></div>
-                                                                <div class="star" data-rating="2"></div>
-                                                                <div class="star" data-rating="3"></div>
-                                                                <div class="star" data-rating="4"></div>
-                                                                <div class="star" data-rating="5"></div>
-                                                            </div>
+                                                            <label class="stars" for="customer1">
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bgffba00"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                                <div class="bge5e5e5"></div>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="d-flex d-md-block d-lg-flex d-xl-block align-items-center mt-3 mt-md-0 mt-lg-3 mt-xl-0">
                                                 <div class="">
-                                                    <p class="color96979b text-nowrap w-100">
+                                                    <p class="color96979b text-nowrap w-100 mt-4">
                                                         <sup class="mt-2">$</sup>199 &nbsp;
                                                         <small class="fs12px"><del>&nbsp;$219&nbsp;</del></small>
                                                     </p>
@@ -1583,6 +1583,7 @@
     buttonOpenClose();
     checkboxclr();
     filterMenu();
+    productStar();
 </script>
 
 </html>

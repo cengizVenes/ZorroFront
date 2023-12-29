@@ -547,7 +547,7 @@ sup {
 }
 
 .menu-item:hover {
-    color: #ff5722;
+    color: #f3b042;
 }
 
 .expand-btn.open+.sample {
@@ -713,7 +713,7 @@ sup {
 }
 
 .navbar .menu-item:hover {
-    color: #ff5722;
+    color: #f3b042;
 }
 
 
@@ -721,7 +721,7 @@ sup {
     opacity: 1;
     visibility: visible;
 }
-
+#f3b042
 .navbar .dropdown-right:hover .menu-right {
     left: 100%;
     opacity: 1;
@@ -794,7 +794,7 @@ sup {
 }
 
 .content .col .menu-title {
-    color: #ff5722;
+    color: #f3b042;
     font-size: 1.2rem;
     line-height: 3rem;
     font-weight: bold;
@@ -831,7 +831,7 @@ sup {
 }
 
 .content .col .read-more:hover {
-    color: #ff5722;
+    color: #f3b042;
 }
 
 /* animation menu hamburger */
@@ -1745,6 +1745,10 @@ input[type="number"]::-webkit-outer-spin-button {
     border: 1px solid #ebebeb;
     border-radius: 2px;
 }
+.disabledInput:focus-visible
+{
+    outline: none;
+}
 
 .filterSearch:focus-visible {
     outline: none;
@@ -1977,13 +1981,13 @@ input[type="search"]::-webkit-search-results-decoration {
 
 }
 
-.sizeFilter>[type="checkbox"]:checked+button {
+.sizeFilter > [type="checkbox"]:checked+button,.BlogListButton > [type="checkbox"]:checked+button {
     background-color: #19c144;
     border: 1px solid #19c144;
     color: #FFF;
 }
 
-.sizeFilter>[type="checkbox"]:not(:checked)+button {
+.sizeFilter > [type="checkbox"]:not(:checked)+button,.BlogListButton > [type="checkbox"]:not(:checked)+button {
     background-color: #fff;
     border: 1px dashed #d7d8da;
     color: #d7d8da;
@@ -2722,7 +2726,7 @@ td {
 
 @media(max-width:576px) {
     .maxWidth100 {
-        width: 100%;
+        max-width: 100%;
     }
 }
 

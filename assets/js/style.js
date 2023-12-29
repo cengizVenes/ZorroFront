@@ -589,7 +589,21 @@ function moreLess() {
     moreText.style.display = "inline";
   }
 }
+function moreLess2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var btnText2 = document.getElementById("btnMore2");
 
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText2.innerHTML = "Brands more";
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText2.innerHTML = "Brands less";
+    moreText2.style.display = "inline";
+  }
+}
 function imgchange() {
   var resimler = [
     "../../assets/images/productImg/product1.webp",

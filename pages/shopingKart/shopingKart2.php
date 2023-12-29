@@ -23,14 +23,14 @@
         <div class="oneBanner h260px">
             <div class="p-5">
                 <div class="text-center">
-                    <h1 class="fw-semibold text-white">ALL PRODUCTS</h1>
+                    <h1 class="fw-semibold text-white">SHOPPING CART</h1>
                     <nav>
                         <ul class="dotNone d-flex align-items-center justify-content-center text-white m-0 p-0">
                             <li class="d-flex align-items-center h-100"><a class="text-decoration-none text-white fs12px" href="#">Home</a></li>
                             <li class="d-flex align-items-center h-100"><i class="fa-solid fa-chevron-right fs7px px-2"></i></li>
                             <li class="d-flex align-items-center h-100"><a class="text-decoration-none text-white fs12px" href="#">Products</a></li>
                             <li class="d-flex align-items-center h-100"><i class="fa-solid fa-chevron-right fs7px px-2 "></i></li>
-                            <li class="d-flex align-items-center h-100"><a class="text-decoration-none text-white fs12px" href="#">All Products</a></li>
+                            <li class="d-flex align-items-center h-100"><a class="text-decoration-none text-white fs12px" href="#">Shopping Cart</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -247,16 +247,21 @@
                                 <div class=" mb-2">
                                     <h3 class="fs-6 liteGrey">TAGS</h3>
                                 </div>
-                                <div class="d-flex flex-wrap BlogListButton">
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Beauty</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Fashion</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Shoe</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Electronic</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Travel
-                                        Bag</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Jewellery</button>
-                                    <button class="m-1 brdashed colord7d8da rounded-1" data-acik="true">Personal
-                                        Care</button>
+                                <div class="d-flex flex-wrap BlogListButton ">
+                                    <input id="Beauty" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('Beauty')" class="m-1 brdashed colord7d8da rounded-1">Beauty</button>
+                                    <input id="Fashion" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('Fashion')" class="m-1 brdashed colord7d8da rounded-1">Fashion</button>
+                                    <input id="Shoe" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('Shoe')" class="m-1 brdashed colord7d8da rounded-1">Shoe</button>
+                                    <input id="Electronic" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('Electronic')" class="m-1 brdashed colord7d8da rounded-1">Electronic</button>
+                                    <input id="TravelBag" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('TravelBag')" class="m-1 brdashed colord7d8da rounded-1">Travel Bag</button>
+                                    <input id="Jewellery" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('Jewellery')" class="m-1 brdashed colord7d8da rounded-1">Jewellery</button>
+                                    <input id="PersonalCare" class="opacity-0 ceked checkboxClr  position-absolute start-0" type="checkbox">
+                                    <button onclick="isaretleCheckbox('PersonalCare')" class="m-1 brdashed colord7d8da rounded-1">Personal Care</button>
 
 
                                 </div>
@@ -736,16 +741,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../../assets/js/jquary3.7.0.js"></script>
     <script src="../../assets/owl-carousel/owl.carousel.min.js"></script>
-    <script src="../../assets/js/doubleRange.js"></script>
     <script src="../../assets/js/style.js"></script>
     <script>
         pagination();
         imgchange();
         checkboxclr();
-        buttonOpenClose();
         coppy();
         heart();
-        moreLess();
     </script>
 </body>
 
